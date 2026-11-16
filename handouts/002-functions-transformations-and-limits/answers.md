@@ -222,14 +222,14 @@ Verified limits: lim_{t -> 2^-} T(t) = 5 and lim_{t -> 2^+} T(t) = 6.
 **2.**
 ```text
 Stage 1 (Classification & Domain):
-Compare directional limits: lim_{t -> 2^-} T(t) = 5 != lim_{t -> 2^+} T(t) = 6.
+Directional limits: lim_{t -> 2^-} T(t) = 5 != lim_{t -> 2^+} T(t) = 6.
 
 Stage 2 (Algebraic Preparation):
-Existence theorem: two-sided limit exists if and only if one-sided limits are equal.
+Two-sided limit exists if and only if one-sided limits are equal.
 
 Stage 3 (Core Operation):
-Since 5 != 6, the two-sided limit lim_{t -> 2} T(t) Does Not Exist (DNE).
-Classification: Essential jump discontinuity of magnitude |6 - 5| = 1 (100 deg C) at t = 2.
+Since 5 != 6, lim_{t -> 2} T(t) Does Not Exist (DNE).
+Classification: Essential jump discontinuity of magnitude |6 - 5| = 1 at t = 2.
 
 Stage 4 (Interpretation & Boundary Check):
 Control point T(2) = 5 cannot bridge the abrupt firing jump transition.
@@ -239,20 +239,17 @@ Verified conclusion: Limit DNE; jump discontinuity of magnitude 1.
 **3.**
 ```text
 Stage 1 (Classification & Domain):
-Monotonicity analysis on [0, 6]: Segment 1 [0, 2) has dT/dt = 1.5 > 0 (increasing).
-Segment 2 (2, 6] has dT/dt = 6/(t + 1)^2 > 0 (increasing).
+Monotonicity on [0, 6]: Segment 1 [0, 2) has dT/dt > 0; Segment 2 (2, 6] has dT/dt > 0.
 
 Stage 2 (Algebraic Preparation):
-Segment 1 values span [T(0), lim_{t->2^-} T(t)) = [2, 5). Point t = 2 gives T(2) = 5, closing [2, 5].
-Segment 2 values span (lim_{t->2^+} T(t), T(6)] = (6, 8 - 6/7] = (6, 50/7].
+Segment 1 spans [T(0), lim_{t->2^-} T(t)) = [2, 5). Point t = 2 gives T(2) = 5, closing [2, 5].
+Segment 2 spans (lim_{t->2^+} T(t), T(6)] = (6, 50/7].
 
 Stage 3 (Core Operation):
-Synthesize full range: [2, 5] U (6, 50/7].
-Absolute minimum: 2 (200 deg C at t = 0). Absolute maximum: 50/7 (approx 714.3 deg C at t = 6).
+Range: [2, 5] U (6, 50/7]. Min: 2 at t = 0; Max: 50/7 at t = 6.
 
 Stage 4 (Interpretation & Boundary Check):
-Interval (5, 6] is omitted due to the jump discontinuity at t = 2 hours.
-Verified extrema: Min = 2 at t = 0; Max = 50/7 at t = 6; Range: [2, 5] U (6, 50/7].
+Interval (5, 6] is omitted due to jump discontinuity. Verified range: [2, 5] U (6, 50/7].
 ```
 
 ### Q6
@@ -263,33 +260,30 @@ Stage 1 (Classification & Domain):
 Right velocity v(t) = (sqrt(t - 1) - 3)/(t - 10) + 15 for t > 10. Direct substitution yields 0/0.
 
 Stage 2 (Algebraic Preparation):
-Multiply by conjugate: [(sqrt(t-1)-3)(sqrt(t-1)+3)] / [(t-10)(sqrt(t-1)+3)]
-= [(t - 1) - 9] / [(t - 10)(sqrt(t-1)+3)] = (t - 10) / [(t - 10)(sqrt(t-1)+3)].
+Multiply by conjugate: [(sqrt(t-1)-3)(sqrt(t-1)+3)] / [(t-10)(sqrt(t-1)+3)] = (t - 10) / [(t - 10)(sqrt(t-1)+3)].
 
 Stage 3 (Core Operation):
-Cancel (t - 10) for t > 10: 1 / (sqrt(t - 1) + 3).
+Cancel (t - 10): 1 / (sqrt(t - 1) + 3).
 Evaluate limit: 1 / (sqrt(9) + 3) + 15 = 1/6 + 15 = 91/6 m/s.
 
 Stage 4 (Interpretation & Boundary Check):
-Numerical check: At t = 10.01, v(t) approx 15.1666 m/s; 91/6 = 15.1667 m/s.
-Verified right-hand limit: 91/6 m/s.
+Numerical check: At t = 10.01, v(t) approx 15.1666 m/s; 91/6 = 15.1667 m/s. Verified limit: 91/6 m/s.
 ```
 
 **2.**
 ```text
 Stage 1 (Classification & Domain):
-Left velocity v(t) = (a*t^2 + 12t)/(t + 4) for t < 10. Denominator at 10 is 14 != 0.
+Left velocity v(t) = (a*t^2 + 12t)/(t + 4) for t < 10. Continuous at 10 (denominator 14 != 0).
 
 Stage 2 (Algebraic Preparation):
 Direct substitution: lim_{t -> 10^-} v(t) = (100a + 120)/14 = (50a + 60)/7.
 Equate to right limit: (50a + 60)/7 = 91/6.
 
 Stage 3 (Core Operation):
-Cross-multiply: 6(50a + 60) = 7(91) ==> 300a + 360 = 637 ==> 300a = 277 ==> a = 277/300.
+Cross-multiply: 6(50a + 60) = 7(91) ==> 300a + 360 = 637 ==> a = 277/300.
 
 Stage 4 (Interpretation & Boundary Check):
-Check: [50(277/300) + 60]/7 = (637/6)/7 = 91/6 m/s. Both directional limits match.
-Verified parameter: a = 277/300.
+Check: [50(277/300) + 60]/7 = (637/6)/7 = 91/6 m/s. Verified parameter: a = 277/300.
 ```
 
 **3.**
