@@ -3,10 +3,10 @@
   "ok": true,
   "errors": [],
   "warnings": [
-    "code block 13 spans pages [7, 8] with only {8: 2} identifiable source lines on a fragment (confidence=medium)"
+    "code block 16 spans pages [6, 7] with only {7: 2} identifiable source lines on a fragment (confidence=medium)"
   ],
-  "bytes": 784381,
-  "pages": 10,
+  "bytes": 523677,
+  "pages": 7,
   "raw_mermaid_pages": [],
   "math_expected": true,
   "math_expression_count": 8,
@@ -18,87 +18,67 @@
   "unlisted_option_findings": [],
   "mermaid_blocks": 0,
   "layout_warnings": [
-    "code block 13 spans pages [7, 8] with only {8: 2} identifiable source lines on a fragment (confidence=medium)"
+    "code block 16 spans pages [6, 7] with only {7: 2} identifiable source lines on a fragment (confidence=medium)"
   ],
   "layout_warning_details": [
     {
       "type": "code_fragment",
-      "block_index": 13,
+      "block_index": 16,
       "pages": [
-        7,
-        8
+        6,
+        7
       ],
       "sparse_pages": {
-        "8": 2
+        "7": 2
       },
       "matches_by_page": {
-        "7": [
+        "6": [
           {
             "line": 1,
             "text": "Stage 1 (Classification & Domain):"
           },
           {
             "line": 2,
-            "text": "Compare directional limits from subpart 1:"
+            "text": "Left velocity v(t) = (a*t^2 + 12t)/(t + 4) for t < 10. Denominator at 10 is 14 != 0."
           },
           {
             "line": 3,
-            "text": "lim_{t -> 2^-} T(t) = 5 != lim_{t -> 2^+} T(t) = 6."
-          },
-          {
-            "line": 4,
             "text": "Stage 2 (Algebraic Preparation):"
           },
           {
+            "line": 4,
+            "text": "Direct substitution: lim_{t -> 10^-} v(t) = (100a + 120)/14 = (50a + 60)/7."
+          },
+          {
             "line": 5,
-            "text": "Apply Existence Theorem for two-sided limits:"
+            "text": "Equate to right limit: (50a + 60)/7 = 91/6."
           },
           {
             "line": 6,
-            "text": "A two-sided limit exists if and only if both one-sided limits exist and are equal."
-          },
-          {
-            "line": 7,
             "text": "Stage 3 (Core Operation):"
           },
           {
-            "line": 8,
-            "text": "Because 5 != 6, the two-sided limit lim_{t -> 2} T(t) Does Not Exist (DNE)."
+            "line": 7,
+            "text": "Cross-multiply: 6(50a + 60) = 7(91) ==> 300a + 360 = 637 ==> 300a = 277 ==> a = 277/300."
           },
           {
+            "line": 8,
+            "text": "Stage 4 (Interpretation & Boundary Check):"
+          }
+        ],
+        "7": [
+          {
             "line": 9,
-            "text": "Classification:"
+            "text": "Check: [50(277/300) + 60]/7 = (637/6)/7 = 91/6 m/s. Both directional limits match."
           },
           {
             "line": 10,
-            "text": "Because both directional limits are finite real numbers that disagree, the profile"
-          },
-          {
-            "line": 11,
-            "text": "exhibits an essential jump discontinuity of magnitude |6 - 5| = 1 (100 deg C) at t = 2."
-          },
-          {
-            "line": 12,
-            "text": "Stage 4 (Interpretation & Boundary Check):"
-          },
-          {
-            "line": 13,
-            "text": "The isolated control point T(2) = 5 coincides with the left limit, but cannot eliminate"
-          }
-        ],
-        "8": [
-          {
-            "line": 14,
-            "text": "the abrupt jump transition between the two firing regimes."
-          },
-          {
-            "line": 15,
-            "text": "Verified conclusion: Limit DNE; jump discontinuity of magnitude 1."
+            "text": "Verified parameter: a = 277/300."
           }
         ]
       },
       "confidence": "medium",
-      "message": "code block 13 spans pages [7, 8] with only {8: 2} identifiable source lines on a fragment (confidence=medium)"
+      "message": "code block 16 spans pages [6, 7] with only {7: 2} identifiable source lines on a fragment (confidence=medium)"
     }
   ],
   "block_checks": [],
@@ -106,74 +86,58 @@
   "visual_pages": {
     "1": {
       "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-001.png",
-      "ink_ratio": 0.061977,
-      "mean_brightness": 244.76
+      "ink_ratio": 0.054609,
+      "mean_brightness": 246.61
     },
     "2": {
       "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-002.png",
-      "ink_ratio": 0.072481,
-      "mean_brightness": 243.39
+      "ink_ratio": 0.072813,
+      "mean_brightness": 244.8
     },
     "3": {
       "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-003.png",
-      "ink_ratio": 0.08362,
-      "mean_brightness": 243.35
+      "ink_ratio": 0.067092,
+      "mean_brightness": 244.49
     },
     "4": {
       "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-004.png",
-      "ink_ratio": 0.068813,
-      "mean_brightness": 243.86
+      "ink_ratio": 0.063565,
+      "mean_brightness": 245.0
     },
     "5": {
       "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-005.png",
-      "ink_ratio": 0.064452,
-      "mean_brightness": 244.27
+      "ink_ratio": 0.07231,
+      "mean_brightness": 244.0
     },
     "6": {
       "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-006.png",
-      "ink_ratio": 0.071153,
-      "mean_brightness": 243.52
+      "ink_ratio": 0.073032,
+      "mean_brightness": 243.61
     },
     "7": {
       "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-007.png",
-      "ink_ratio": 0.072628,
-      "mean_brightness": 243.27
-    },
-    "8": {
-      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-008.png",
-      "ink_ratio": 0.07811,
-      "mean_brightness": 242.7
-    },
-    "9": {
-      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-009.png",
-      "ink_ratio": 0.068914,
-      "mean_brightness": 243.8
-    },
-    "10": {
-      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\page-010.png",
-      "ink_ratio": 0.062432,
-      "mean_brightness": 244.82
+      "ink_ratio": 0.053514,
+      "mean_brightness": 246.85
     }
   },
   "contact_sheets": [
     "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\contact-sheet-001.png",
-    "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\contact-sheet-002.png",
-    "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\contact-sheet-003.png"
+    "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\answers.print-previews\\contact-sheet-002.png"
   ],
   "near_blank_pages": [],
   "sparse_pages": [],
   "review_plan": {
-    "total_pages": 10,
+    "total_pages": 7,
     "pages_to_review": [
-      7,
-      8
+      6,
+      7
     ],
     "reasons": {
-      "7": [
-        "code block 13 spans pages [7, 8] with only {8: 2} identifiable source lines on a fragment (confidence=medium)"
+      "6": [
+        "code block 16 spans pages [6, 7] with only {7: 2} identifiable source lines on a fragment (confidence=medium)"
       ],
-      "8": [
-        "code block 13 spans pages [7, 8] with only {8: 2} identifiable source lines on a fragment (confidence=medium)"
+      "7": [
+        "code block 16 spans pages [6, 7] with only {7: 2} identifiable source lines on a fragment (confidence=medium)"
       ]
     },
     "notes": [
