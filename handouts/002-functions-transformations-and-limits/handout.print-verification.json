@@ -1,0 +1,228 @@
+{
+  "pdf": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print.pdf",
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "code block 1 spans pages [7, 8] with only {8: 1} identifiable source lines on a fragment (confidence=medium)",
+    "visually sparse pages should be reviewed: [12]"
+  ],
+  "bytes": 1617658,
+  "pages": 12,
+  "raw_mermaid_pages": [],
+  "math_expected": true,
+  "math_expression_count": 275,
+  "raw_math_pages": [],
+  "pdf_encoding_findings": [],
+  "source_markdown": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.md",
+  "source_encoding_findings": [],
+  "restarted_ordered_list_findings": [],
+  "unlisted_option_findings": [],
+  "mermaid_blocks": 0,
+  "layout_warnings": [
+    "code block 1 spans pages [7, 8] with only {8: 1} identifiable source lines on a fragment (confidence=medium)"
+  ],
+  "layout_warning_details": [
+    {
+      "type": "code_fragment",
+      "block_index": 1,
+      "pages": [
+        7,
+        8
+      ],
+      "sparse_pages": {
+        "8": 1
+      },
+      "matches_by_page": {
+        "7": [
+          {
+            "line": 1,
+            "text": "Stage 1 (Classification & Domain):"
+          },
+          {
+            "line": 2,
+            "text": "Identify function family: combination of an even radical (numerator) and a rational denominator."
+          },
+          {
+            "line": 3,
+            "text": "Identify algebraic domain constraints:"
+          },
+          {
+            "line": 4,
+            "text": "1. Even radical in numerator requires non-negative radicand: 9 - x^2 >= 0."
+          },
+          {
+            "line": 5,
+            "text": "2. Rational denominator cannot be zero: x - 2 != 0."
+          },
+          {
+            "line": 6,
+            "text": "Stage 2 (Algebraic Preparation):"
+          },
+          {
+            "line": 7,
+            "text": "Solve radicand inequality:"
+          },
+          {
+            "line": 8,
+            "text": "9 - x^2 >= 0 ==> x^2 <= 9 ==> -3 <= x <= 3 ==> [-3, 3]."
+          },
+          {
+            "line": 9,
+            "text": "Solve denominator constraint:"
+          },
+          {
+            "line": 10,
+            "text": "x - 2 != 0 ==> x != 2."
+          },
+          {
+            "line": 11,
+            "text": "Stage 3 (Core Operation):"
+          },
+          {
+            "line": 12,
+            "text": "Intersect both domain requirements:"
+          },
+          {
+            "line": 13,
+            "text": "x in [-3, 3] and x != 2."
+          },
+          {
+            "line": 14,
+            "text": "Express as union of disjoint intervals:"
+          },
+          {
+            "line": 15,
+            "text": "[-3, 2) U (2, 3]."
+          },
+          {
+            "line": 16,
+            "text": "Stage 4 (Interpretation & Boundary Check):"
+          },
+          {
+            "line": 17,
+            "text": "Check boundary endpoints:"
+          },
+          {
+            "line": 18,
+            "text": "At x = -3: f(-3) = sqrt(0)/(-5) = 0 (valid, closed bracket)."
+          },
+          {
+            "line": 19,
+            "text": "At x = 3: f(3) = sqrt(0)/(1) = 0 (valid, closed bracket)."
+          },
+          {
+            "line": 20,
+            "text": "At x = 2: denominator is zero (vertical asymptote, open parentheses)."
+          }
+        ],
+        "8": [
+          {
+            "line": 21,
+            "text": "Final verified domain: [-3, 2) U (2, 3]."
+          }
+        ]
+      },
+      "confidence": "medium",
+      "message": "code block 1 spans pages [7, 8] with only {8: 1} identifiable source lines on a fragment (confidence=medium)"
+    }
+  ],
+  "block_checks": [],
+  "rendered_all_pages": true,
+  "visual_pages": {
+    "1": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-001.png",
+      "ink_ratio": 0.149805,
+      "mean_brightness": 241.94
+    },
+    "2": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-002.png",
+      "ink_ratio": 0.046966,
+      "mean_brightness": 250.36
+    },
+    "3": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-003.png",
+      "ink_ratio": 0.119887,
+      "mean_brightness": 245.81
+    },
+    "4": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-004.png",
+      "ink_ratio": 0.079554,
+      "mean_brightness": 245.84
+    },
+    "5": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-005.png",
+      "ink_ratio": 0.092864,
+      "mean_brightness": 247.8
+    },
+    "6": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-006.png",
+      "ink_ratio": 0.128101,
+      "mean_brightness": 242.89
+    },
+    "7": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-007.png",
+      "ink_ratio": 0.121316,
+      "mean_brightness": 242.24
+    },
+    "8": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-008.png",
+      "ink_ratio": 0.073409,
+      "mean_brightness": 244.19
+    },
+    "9": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-009.png",
+      "ink_ratio": 0.07173,
+      "mean_brightness": 243.74
+    },
+    "10": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-010.png",
+      "ink_ratio": 0.073897,
+      "mean_brightness": 245.76
+    },
+    "11": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-011.png",
+      "ink_ratio": 0.052076,
+      "mean_brightness": 249.14
+    },
+    "12": {
+      "preview": "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\page-012.png",
+      "ink_ratio": 0.020814,
+      "mean_brightness": 252.73
+    }
+  },
+  "contact_sheets": [
+    "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\contact-sheet-001.png",
+    "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\contact-sheet-002.png",
+    "C:\\dev\\calculus\\handouts\\002-functions-transformations-and-limits\\handout.print-previews\\contact-sheet-003.png"
+  ],
+  "near_blank_pages": [],
+  "sparse_pages": [
+    {
+      "page": 12,
+      "ink_ratio": 0.020814,
+      "text_characters": 605
+    }
+  ],
+  "review_plan": {
+    "total_pages": 12,
+    "pages_to_review": [
+      7,
+      8,
+      12
+    ],
+    "reasons": {
+      "7": [
+        "code block 1 spans pages [7, 8] with only {8: 1} identifiable source lines on a fragment (confidence=medium)"
+      ],
+      "8": [
+        "code block 1 spans pages [7, 8] with only {8: 1} identifiable source lines on a fragment (confidence=medium)"
+      ],
+      "12": [
+        "sparse page (little text and ink): confirm it is a deliberate last page, not a stray break"
+      ]
+    },
+    "notes": [
+      "math: confirm fractions, binomials, parentheses and spacing in the contact sheet"
+    ]
+  }
+}

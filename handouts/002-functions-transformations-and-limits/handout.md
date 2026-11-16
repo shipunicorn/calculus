@@ -340,9 +340,9 @@ $$g(x) = \begin{cases} x^2 - 2x + 3 & \text{if } x < 2 \\ 5 & \text{if } x = 2 \
 Which of the following statements regarding the behavior of $g(x)$ at $x = 2$ is mathematically correct?
 
 - A) The limit $\lim_{x \to 2} g(x)$ does not exist because $g(2) \neq 3$.
-- B) The limit $\lim_{x \to 2} g(x) = 5$ because direct evaluation at $x = 2$ gives $g(2) = 5$.
-- C) The limit $\lim_{x \to 2} g(x) = 3$, and $g(x)$ has a removable discontinuity at $x = 2$ because $\lim_{x \to 2} g(x) \neq g(2)$.
-- D) The function $g(x)$ is continuous at $x = 2$ because both one-sided limits are finite real numbers.
+- B) The limit $\lim_{x \to 2} g(x) = 3$, and $g(x)$ has a removable discontinuity at $x = 2$ because $\lim_{x \to 2} g(x) \neq g(2)$.
+- C) The function $g(x)$ is continuous at $x = 2$ because both one-sided limits are finite real numbers.
+- D) The limit $\lim_{x \to 2} g(x) = 5$ because direct evaluation at $x = 2$ gives $g(2) = 5$.
 - E) The one-sided limits $\lim_{x \to 2^-} g(x)$ and $\lim_{x \to 2^+} g(x)$ are unequal, creating a jump discontinuity at $x = 2$.
 
 ### Q3
