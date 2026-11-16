@@ -242,8 +242,7 @@ Stage 1 (Classification & Domain):
 Monotonicity on [0, 6]: Segment 1 [0, 2) has dT/dt > 0; Segment 2 (2, 6] has dT/dt > 0.
 
 Stage 2 (Algebraic Preparation):
-Segment 1 spans [T(0), lim_{t->2^-} T(t)) = [2, 5). Point t = 2 gives T(2) = 5, closing [2, 5].
-Segment 2 spans (lim_{t->2^+} T(t), T(6)] = (6, 50/7].
+Segment 1 spans [2, 5); T(2) = 5 closes [2, 5]. Segment 2 spans (6, 50/7].
 
 Stage 3 (Core Operation):
 Range: [2, 5] U (6, 50/7]. Min: 2 at t = 0; Max: 50/7 at t = 6.
@@ -257,17 +256,16 @@ Interval (5, 6] is omitted due to jump discontinuity. Verified range: [2, 5] U (
 **1.**
 ```text
 Stage 1 (Classification & Domain):
-Right velocity v(t) = (sqrt(t - 1) - 3)/(t - 10) + 15 for t > 10. Direct substitution yields 0/0.
+Right velocity v(t) = (sqrt(t - 1) - 3)/(t - 10) + 15 for t > 10. Form is 0/0 at 10.
 
 Stage 2 (Algebraic Preparation):
-Multiply by conjugate: [(sqrt(t-1)-3)(sqrt(t-1)+3)] / [(t-10)(sqrt(t-1)+3)] = (t - 10) / [(t - 10)(sqrt(t-1)+3)].
+Multiply by conjugate: [(sqrt(t-1)-3)(sqrt(t-1)+3)] / [(t-10)(sqrt(t-1)+3)] = (t-10)/[(t-10)(sqrt(t-1)+3)].
 
 Stage 3 (Core Operation):
-Cancel (t - 10): 1 / (sqrt(t - 1) + 3).
-Evaluate limit: 1 / (sqrt(9) + 3) + 15 = 1/6 + 15 = 91/6 m/s.
+Cancel (t - 10): 1 / (sqrt(t - 1) + 3). Limit as t -> 10^+ is 1/6 + 15 = 91/6 m/s.
 
 Stage 4 (Interpretation & Boundary Check):
-Numerical check: At t = 10.01, v(t) approx 15.1666 m/s; 91/6 = 15.1667 m/s. Verified limit: 91/6 m/s.
+Numerical check: At t = 10.01, v(t) approx 15.1666 m/s. Verified limit: 91/6 m/s.
 ```
 
 **2.**
