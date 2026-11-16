@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 360" width="440" height="360" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+  </marker>
+</defs>
+<line x1="30" y1="270" x2="410" y2="270" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+<line x1="110" y1="330" x2="110" y2="40" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+<text x="405" y="286" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">x</text>
+<text x="94" y="46" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">y</text>
+<text x="96" y="286" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+<line x1="55" y1="267" x2="55" y2="273" stroke="#1e293b" stroke-width="1.0" />
+<text x="47" y="286" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">-1</text>
+
+<line x1="165" y1="267" x2="165" y2="273" stroke="#1e293b" stroke-width="1.0" />
+<text x="162" y="286" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">1</text>
+<line x1="220" y1="267" x2="220" y2="273" stroke="#1e293b" stroke-width="1.0" />
+<text x="217" y="286" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">2</text>
+<line x1="275" y1="267" x2="275" y2="273" stroke="#1e293b" stroke-width="1.0" />
+<text x="272" y="286" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">3</text>
+<line x1="330" y1="267" x2="330" y2="273" stroke="#1e293b" stroke-width="1.0" />
+<text x="327" y="286" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">4</text>
+<line x1="107" y1="322.5" x2="113" y2="322.5" stroke="#1e293b" stroke-width="1.0" />
+<text x="86" y="326.5" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">-5</text>
+<line x1="107" y1="217.5" x2="113" y2="217.5" stroke="#1e293b" stroke-width="1.0" />
+<text x="86" y="221.5" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">5</text>
+<line x1="107" y1="165.0" x2="113" y2="165.0" stroke="#1e293b" stroke-width="1.0" />
+<text x="86" y="169.0" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">10</text>
+<line x1="107" y1="112.5" x2="113" y2="112.5" stroke="#1e293b" stroke-width="1.0" />
+<text x="86" y="116.5" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">15</text>
+<line x1="107" y1="60.0" x2="113" y2="60.0" stroke="#1e293b" stroke-width="1.0" />
+<text x="86" y="64.0" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">20</text>
+<path d="M 83.0,268.3 L 84.0,267.6 L 85.0,267.0 L 86.0,266.4 L 87.0,265.8 L 88.0,265.2 L 89.0,264.7 L 90.0,264.2 L 91.0,263.7 L 92.0,263.2 L 93.0,262.8 L 94.0,262.4 L 95.0,262.1 L 96.0,261.7 L 97.0,261.4 L 98.0,261.1 L 99.0,260.8 L 100.0,260.6 L 101.0,260.4 L 102.0,260.2 L 103.0,260.0 L 104.0,259.9 L 105.0,259.8 L 106.0,259.7 L 107.0,259.6 L 108.0,259.5 L 109.0,259.5 L 110.0,259.5 L 111.0,259.5 L 112.0,259.5 L 113.0,259.6 L 114.0,259.7 L 115.0,259.8 L 116.0,259.9 L 117.0,260.0 L 118.0,260.1 L 119.0,260.3 L 120.0,260.5 L 121.0,260.7 L 122.0,260.9 L 123.0,261.1 L 124.0,261.4 L 125.0,261.6 L 126.0,261.9 L 127.0,262.2 L 128.0,262.5 L 129.0,262.8 L 130.0,263.2 L 131.0,263.5 L 132.0,263.9 L 133.0,264.2 L 134.0,264.6 L 135.0,265.0 L 136.0,265.4 L 137.0,265.8 L 138.0,266.3 L 139.0,266.7 L 140.0,267.2 L 141.0,267.6 L 142.0,268.1 L 143.0,268.6 L 144.0,269.1 L 145.0,269.6 L 146.0,270.1 L 147.0,270.6 L 148.0,271.1 L 149.0,271.6 L 150.0,272.1 L 151.0,272.7 L 152.0,273.2 L 153.0,273.7 L 154.0,274.3 L 155.0,274.8 L 156.0,275.4 L 157.0,276.0 L 158.0,276.5 L 159.0,277.1 L 160.0,277.6 L 161.0,278.2 L 162.0,278.8 L 163.0,279.4 L 164.0,279.9 L 165.0,280.5 L 166.0,281.1 L 167.0,281.6 L 168.0,282.2 L 169.0,282.8 L 170.0,283.4 L 171.0,283.9 L 172.0,284.5 L 173.0,285.0 L 174.0,285.6 L 175.0,286.2 L 176.0,286.7 L 177.0,287.3 L 178.0,287.8 L 179.0,288.3 L 180.0,288.9 L 181.0,289.4 L 182.0,289.9 L 183.0,290.4 L 184.0,290.9 L 185.0,291.4 L 186.0,291.9 L 187.0,292.4 L 188.0,292.9 L 189.0,293.4 L 190.0,293.8 L 191.0,294.3 L 192.0,294.7 L 193.0,295.2 L 194.0,295.6 L 195.0,296.0 L 196.0,296.4 L 197.0,296.8 L 198.0,297.1 L 199.0,297.5 L 200.0,297.8 L 201.0,298.2 L 202.0,298.5 L 203.0,298.8 L 204.0,299.1 L 205.0,299.4 L 206.0,299.6 L 207.0,299.9 L 208.0,300.1 L 209.0,300.3 L 210.0,300.5 L 211.0,300.7 L 212.0,300.9 L 213.0,301.0 L 214.0,301.1 L 215.0,301.2 L 216.0,301.3 L 217.0,301.4 L 218.0,301.5 L 219.0,301.5 L 220.0,301.5 L 221.0,301.5 L 222.0,301.5 L 223.0,301.4 L 224.0,301.3 L 225.0,301.2 L 226.0,301.1 L 227.0,301.0 L 228.0,300.8 L 229.0,300.6 L 230.0,300.4 L 231.0,300.2 L 232.0,299.9 L 233.0,299.6 L 234.0,299.3 L 235.0,298.9 L 236.0,298.6 L 237.0,298.2 L 238.0,297.8 L 239.0,297.3 L 240.0,296.8 L 241.0,296.3 L 242.0,295.8 L 243.0,295.2 L 244.0,294.6 L 245.0,294.0 L 246.0,293.4 L 247.0,292.7 L 248.0,292.0 L 249.0,291.2 L 250.0,290.4 L 251.0,289.6 L 252.0,288.8 L 253.0,287.9 L 254.0,287.0 L 255.0,286.0 L 256.0,285.1 L 257.0,284.0 L 258.0,283.0 L 259.0,281.9 L 260.0,280.8 L 261.0,279.6 L 262.0,278.5 L 263.0,277.2 L 264.0,276.0 L 265.0,274.7 L 266.0,273.3 L 267.0,271.9 L 268.0,270.5 L 269.0,269.1 L 270.0,267.6 L 271.0,266.0 L 272.0,264.5 L 273.0,262.9 L 274.0,261.2 L 275.0,259.5 L 276.0,257.8 L 277.0,256.0 L 278.0,254.2 L 279.0,252.3 L 280.0,250.4 L 281.0,248.4 L 282.0,246.4 L 283.0,244.4 L 284.0,242.3 L 285.0,240.2 L 286.0,238.0 L 287.0,235.8 L 288.0,233.5 L 289.0,231.2 L 290.0,228.8 L 291.0,226.4 L 292.0,224.0 L 293.0,221.5 L 294.0,218.9 L 295.0,216.3 L 296.0,213.6 L 297.0,210.9 L 298.0,208.2 L 299.0,205.4 L 300.0,202.5 L 301.0,199.6 L 302.0,196.7 L 303.0,193.7 L 304.0,190.6 L 305.0,187.5 L 306.0,184.3 L 307.0,181.1 L 308.0,177.9 L 309.0,174.5 L 310.0,171.1 L 311.0,167.7 L 312.0,164.2 L 313.0,160.7 L 314.0,157.1 L 315.0,153.4 L 316.0,149.7 L 317.0,145.9 L 318.0,142.1 L 319.0,138.2 L 320.0,134.3 L 321.0,130.3 L 322.0,126.2 L 323.0,122.1 L 324.0,117.9 L 325.0,113.6 L 326.0,109.3 L 327.0,105.0 L 328.0,100.5 L 329.0,96.1 L 330.0,91.5" fill="none" stroke="#db2777" stroke-width="2.2" />
+<circle cx="82.5" cy="268.6875" r="3.2" fill="#db2777" />
+<circle cx="220" cy="301.5" r="3.5" fill="#db2777" />
+<text x="202" y="317.5" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#1e293b">(2, -3)</text>
+<circle cx="330" cy="91.5" r="3.5" fill="#db2777" />
+<text x="336" y="93.5" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#1e293b">(4, 17)</text>
+<text x="140" y="100" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" font-style="italic">y = x³ - 3x² + 1</text>
+</svg>

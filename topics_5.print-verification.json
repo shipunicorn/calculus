@@ -1,0 +1,259 @@
+{
+  "pdf": "C:\\dev\\calculus\\topics_5.print.pdf",
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "visually sparse pages should be reviewed: [17, 38]"
+  ],
+  "bytes": 5661142,
+  "pages": 38,
+  "raw_mermaid_pages": [],
+  "math_expected": true,
+  "math_expression_count": 1191,
+  "raw_math_pages": [],
+  "pdf_encoding_findings": [],
+  "source_markdown": "C:\\dev\\calculus\\topics_5.md",
+  "source_encoding_findings": [],
+  "restarted_ordered_list_findings": [],
+  "unlisted_option_findings": [],
+  "mermaid_blocks": 0,
+  "layout_warnings": [],
+  "layout_warning_details": [],
+  "block_checks": [],
+  "rendered_all_pages": true,
+  "visual_pages": {
+    "1": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-001.png",
+      "ink_ratio": 0.098754,
+      "mean_brightness": 243.07
+    },
+    "2": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-002.png",
+      "ink_ratio": 0.05338,
+      "mean_brightness": 248.8
+    },
+    "3": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-003.png",
+      "ink_ratio": 0.042858,
+      "mean_brightness": 250.47
+    },
+    "4": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-004.png",
+      "ink_ratio": 0.066947,
+      "mean_brightness": 247.69
+    },
+    "5": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-005.png",
+      "ink_ratio": 0.061749,
+      "mean_brightness": 247.86
+    },
+    "6": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-006.png",
+      "ink_ratio": 0.116682,
+      "mean_brightness": 244.76
+    },
+    "7": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-007.png",
+      "ink_ratio": 0.04612,
+      "mean_brightness": 250.25
+    },
+    "8": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-008.png",
+      "ink_ratio": 0.062354,
+      "mean_brightness": 248.32
+    },
+    "9": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-009.png",
+      "ink_ratio": 0.053842,
+      "mean_brightness": 248.94
+    },
+    "10": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-010.png",
+      "ink_ratio": 0.037009,
+      "mean_brightness": 251.24
+    },
+    "11": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-011.png",
+      "ink_ratio": 0.0517,
+      "mean_brightness": 249.59
+    },
+    "12": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-012.png",
+      "ink_ratio": 0.063616,
+      "mean_brightness": 247.58
+    },
+    "13": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-013.png",
+      "ink_ratio": 0.0516,
+      "mean_brightness": 249.02
+    },
+    "14": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-014.png",
+      "ink_ratio": 0.048897,
+      "mean_brightness": 249.23
+    },
+    "15": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-015.png",
+      "ink_ratio": 0.046256,
+      "mean_brightness": 249.62
+    },
+    "16": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-016.png",
+      "ink_ratio": 0.050007,
+      "mean_brightness": 249.32
+    },
+    "17": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-017.png",
+      "ink_ratio": 0.029144,
+      "mean_brightness": 251.74
+    },
+    "18": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-018.png",
+      "ink_ratio": 0.05344,
+      "mean_brightness": 248.58
+    },
+    "19": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-019.png",
+      "ink_ratio": 0.03655,
+      "mean_brightness": 250.74
+    },
+    "20": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-020.png",
+      "ink_ratio": 0.03779,
+      "mean_brightness": 250.83
+    },
+    "21": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-021.png",
+      "ink_ratio": 0.039426,
+      "mean_brightness": 250.63
+    },
+    "22": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-022.png",
+      "ink_ratio": 0.045065,
+      "mean_brightness": 249.91
+    },
+    "23": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-023.png",
+      "ink_ratio": 0.068121,
+      "mean_brightness": 247.19
+    },
+    "24": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-024.png",
+      "ink_ratio": 0.088533,
+      "mean_brightness": 245.1
+    },
+    "25": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-025.png",
+      "ink_ratio": 0.065927,
+      "mean_brightness": 247.69
+    },
+    "26": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-026.png",
+      "ink_ratio": 0.082632,
+      "mean_brightness": 245.7
+    },
+    "27": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-027.png",
+      "ink_ratio": 0.057151,
+      "mean_brightness": 248.67
+    },
+    "28": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-028.png",
+      "ink_ratio": 0.065791,
+      "mean_brightness": 247.32
+    },
+    "29": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-029.png",
+      "ink_ratio": 0.107608,
+      "mean_brightness": 242.79
+    },
+    "30": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-030.png",
+      "ink_ratio": 0.061718,
+      "mean_brightness": 247.9
+    },
+    "31": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-031.png",
+      "ink_ratio": 0.057866,
+      "mean_brightness": 248.2
+    },
+    "32": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-032.png",
+      "ink_ratio": 0.052807,
+      "mean_brightness": 249.1
+    },
+    "33": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-033.png",
+      "ink_ratio": 0.069474,
+      "mean_brightness": 247.04
+    },
+    "34": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-034.png",
+      "ink_ratio": 0.070746,
+      "mean_brightness": 247.05
+    },
+    "35": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-035.png",
+      "ink_ratio": 0.060904,
+      "mean_brightness": 247.98
+    },
+    "36": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-036.png",
+      "ink_ratio": 0.042732,
+      "mean_brightness": 250.1
+    },
+    "37": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-037.png",
+      "ink_ratio": 0.064349,
+      "mean_brightness": 247.63
+    },
+    "38": {
+      "preview": "C:\\dev\\calculus\\topics_5.print-previews\\page-038.png",
+      "ink_ratio": 0.01777,
+      "mean_brightness": 252.94
+    }
+  },
+  "contact_sheets": [
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-001.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-002.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-003.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-004.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-005.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-006.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-007.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-008.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-009.png",
+    "C:\\dev\\calculus\\topics_5.print-previews\\contact-sheet-010.png"
+  ],
+  "near_blank_pages": [],
+  "sparse_pages": [
+    {
+      "page": 17,
+      "ink_ratio": 0.029144,
+      "text_characters": 760
+    },
+    {
+      "page": 38,
+      "ink_ratio": 0.01777,
+      "text_characters": 434
+    }
+  ],
+  "review_plan": {
+    "total_pages": 38,
+    "pages_to_review": [
+      17,
+      38
+    ],
+    "reasons": {
+      "17": [
+        "sparse page (little text and ink): confirm it is a deliberate last page, not a stray break"
+      ],
+      "38": [
+        "sparse page (little text and ink): confirm it is a deliberate last page, not a stray break"
+      ]
+    },
+    "notes": [
+      "math: confirm fractions, binomials, parentheses and spacing in the contact sheet"
+    ]
+  }
+}

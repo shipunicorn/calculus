@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 200" width="650" height="200" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+  </marker>
+</defs>
+<text x="78" y="185" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold">(a)</text>
+<line x1="15" y1="150" x2="155" y2="150" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<line x1="35" y1="175" x2="35" y2="25" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<text x="152" y="164" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x</text>
+<text x="25" y="30" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">y</text>
+<text x="25" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10">0</text>
+<line x1="57" y1="148" x2="57" y2="152" stroke="#1e293b" stroke-width="1.0" />
+<text x="54" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">a</text>
+<line x1="130" y1="148" x2="130" y2="152" stroke="#1e293b" stroke-width="1.0" />
+<text x="127" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">b</text>
+<line x1="57" y1="85" x2="130" y2="85" stroke="#0284c7" stroke-width="1.8" />
+<line x1="57" y1="85" x2="57" y2="150" stroke="#64748b" stroke-width="0.8" stroke-dasharray="2 2" />
+<line x1="130" y1="85" x2="130" y2="150" stroke="#64748b" stroke-width="0.8" stroke-dasharray="2 2" />
+<line x1="82" y1="85" x2="82" y2="150" stroke="#64748b" stroke-width="0.8" />
+<text x="78" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="9" font-style="italic">c₁</text>
+<line x1="107" y1="85" x2="107" y2="150" stroke="#64748b" stroke-width="0.8" />
+<text x="103" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="9" font-style="italic">c₂</text>
+<text x="233" y="185" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold">(b)</text>
+<line x1="170" y1="150" x2="310" y2="150" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<line x1="190" y1="175" x2="190" y2="25" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<text x="307" y="164" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x</text>
+<text x="180" y="30" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">y</text>
+<text x="180" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10">0</text>
+<line x1="212" y1="148" x2="212" y2="152" stroke="#1e293b" stroke-width="1.0" />
+<text x="209" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">a</text>
+<line x1="285" y1="148" x2="285" y2="152" stroke="#1e293b" stroke-width="1.0" />
+<text x="282" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">b</text>
+<path d="M 212 105 Q 248.5 35 285 105" fill="none" stroke="#0284c7" stroke-width="1.8" />
+<line x1="228.5" y1="70" x2="268.5" y2="70" stroke="#db2777" stroke-width="1.6" />
+<line x1="248.5" y1="70" x2="248.5" y2="150" stroke="#64748b" stroke-width="0.8" />
+<text x="245.5" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">c</text>
+<text x="388" y="185" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold">(c)</text>
+<line x1="325" y1="150" x2="465" y2="150" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<line x1="345" y1="175" x2="345" y2="25" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<text x="462" y="164" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x</text>
+<text x="335" y="30" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">y</text>
+<text x="335" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10">0</text>
+<line x1="367" y1="148" x2="367" y2="152" stroke="#1e293b" stroke-width="1.0" />
+<text x="364" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">a</text>
+<line x1="440" y1="148" x2="440" y2="152" stroke="#1e293b" stroke-width="1.0" />
+<text x="437" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">b</text>
+<path d="M 367 100 C 377 50, 399 50, 403.5 100 C 409 140, 430 140, 440 100" fill="none" stroke="#0284c7" stroke-width="1.8" />
+<line x1="374" y1="75" x2="404" y2="75" stroke="#db2777" stroke-width="1.6" />
+<line x1="389" y1="75" x2="389" y2="150" stroke="#64748b" stroke-width="0.8" />
+<text x="385" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="9" font-style="italic">c₁</text>
+<line x1="404" y1="120" x2="434" y2="120" stroke="#db2777" stroke-width="1.6" />
+<line x1="419" y1="120" x2="419" y2="150" stroke="#64748b" stroke-width="0.8" />
+<text x="415" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="9" font-style="italic">c₂</text>
+<text x="543" y="185" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold">(d)</text>
+<line x1="480" y1="150" x2="620" y2="150" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<line x1="500" y1="175" x2="500" y2="25" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<text x="617" y="164" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x</text>
+<text x="490" y="30" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">y</text>
+<text x="490" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10">0</text>
+<line x1="522" y1="148" x2="522" y2="152" stroke="#1e293b" stroke-width="1.0" />
+<text x="519" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">a</text>
+<line x1="595" y1="148" x2="595" y2="152" stroke="#1e293b" stroke-width="1.0" />
+<text x="592" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">b</text>
+<path d="M 522 85 Q 558.5 160 595 85" fill="none" stroke="#0284c7" stroke-width="1.8" />
+<line x1="538.5" y1="125" x2="578.5" y2="125" stroke="#db2777" stroke-width="1.6" />
+<line x1="558.5" y1="125" x2="558.5" y2="150" stroke="#64748b" stroke-width="0.8" />
+<text x="555.5" y="163" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">c</text>
+</svg>

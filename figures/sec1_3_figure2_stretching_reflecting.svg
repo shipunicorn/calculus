@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 310" width="540" height="310" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#d92672" />
+  </marker>
+</defs>
+
+    <line x1="40" y1="205" x2="480" y2="205" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <line x1="210" y1="285" x2="210" y2="25" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <text x="485" y="219" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" font-style="italic" fill="#1e293b">x</text>
+    <text x="198" y="30" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" font-style="italic" fill="#1e293b">y</text>
+    <text x="198" y="221" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" fill="#1e293b">0</text>
+    
+    <path d="M 235 180 C 253 140, 275 140, 290 165 C 305 185, 320 175, 330 178" fill="none" stroke="#1e293b" stroke-width="2" />
+    <text x="337" y="170" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic" fill="#1e293b">y = f(x)</text>
+
+    <path d="M 235 135 C 255 55, 275 55, 290 105 C 305 145, 320 125, 330 130" fill="none" stroke="#d92672" stroke-width="2" />
+    <text x="325" y="80" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic" fill="#d92672">y = cf(x) (c &gt; 1)</text>
+
+    <path d="M 235 190 C 253 168, 275 168, 290 180 C 305 188, 320 185, 330 186" fill="none" stroke="#16a34a" stroke-width="2" />
+    <text x="337" y="194" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic" fill="#16a34a">y = &#189; f(x)</text>
+
+    <path d="M 235 230 C 253 270, 275 270, 290 245 C 305 225, 320 235, 330 232" fill="none" stroke="#ea580c" stroke-width="2" />
+    <text x="337" y="260" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic" fill="#ea580c">y = -f(x)</text>
+
+    <path d="M 185 180 C 167 140, 145 140, 130 165 C 115 185, 100 175, 90 178" fill="none" stroke="#0284c7" stroke-width="2" />
+    <text x="85" y="152" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic" fill="#0284c7">y = f(-x)</text>
+    
+    <text x="30" y="290" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#0f172a" letter-spacing="0.5">FIGURE 2</text>
+    <text x="30" y="304" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" fill="#475569">Stretching and reflecting the graph of f</text>
+    
+</svg>

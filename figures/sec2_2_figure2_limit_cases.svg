@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#d92672" />
+  </marker>
+</defs>
+
+        <line x1="20" y1="155" x2="205" y2="155" stroke="#1e293b" stroke-width="1.3" marker-end="url(#arrow)" />
+        <line x1="45" y1="180" x2="45" y2="35" stroke="#1e293b" stroke-width="1.3" marker-end="url(#arrow)" />
+        <text x="207" y="167" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">x</text>
+        <text x="35" y="40" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">y</text>
+        <text x="35" y="169" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+        
+        <line x1="130" y1="90" x2="130" y2="155" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+        <line x1="130" y1="90" x2="45" y2="90" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+        <text x="127" y="170" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">a</text>
+        <text x="33" y="94" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">L</text>
+        <path d="M 30 125 Q 75 160, 130 90 T 195 95" fill="none" stroke="#0284c7" stroke-width="2" /><circle cx="130" cy="90" r="3" fill="#0284c7" /><text x="120" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" fill="#0f172a" text-anchor="middle">(a)</text>
+        <line x1="220" y1="155" x2="405" y2="155" stroke="#1e293b" stroke-width="1.3" marker-end="url(#arrow)" />
+        <line x1="245" y1="180" x2="245" y2="35" stroke="#1e293b" stroke-width="1.3" marker-end="url(#arrow)" />
+        <text x="407" y="167" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">x</text>
+        <text x="235" y="40" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">y</text>
+        <text x="235" y="169" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+        
+        <line x1="330" y1="90" x2="330" y2="155" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+        <line x1="330" y1="90" x2="245" y2="90" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+        <text x="327" y="170" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">a</text>
+        <text x="233" y="94" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">L</text>
+        <path d="M 230 125 Q 275 160, 330 90 T 395 95" fill="none" stroke="#0284c7" stroke-width="2" /><circle cx="330" cy="90" r="3.5" fill="#ffffff" stroke="#0284c7" stroke-width="1.6" /><circle cx="330" cy="122" r="3" fill="#0284c7" /><text x="320" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" fill="#0f172a" text-anchor="middle">(b)</text>
+        <line x1="420" y1="155" x2="605" y2="155" stroke="#1e293b" stroke-width="1.3" marker-end="url(#arrow)" />
+        <line x1="445" y1="180" x2="445" y2="35" stroke="#1e293b" stroke-width="1.3" marker-end="url(#arrow)" />
+        <text x="607" y="167" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">x</text>
+        <text x="435" y="40" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">y</text>
+        <text x="435" y="169" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+        
+        <line x1="530" y1="90" x2="530" y2="155" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+        <line x1="530" y1="90" x2="445" y2="90" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+        <text x="527" y="170" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">a</text>
+        <text x="433" y="94" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">L</text>
+        <path d="M 430 125 Q 475 160, 530 90 T 595 95" fill="none" stroke="#0284c7" stroke-width="2" /><circle cx="530" cy="90" r="3.5" fill="#ffffff" stroke="#0284c7" stroke-width="1.6" /><text x="520" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" fill="#0f172a" text-anchor="middle">(c)</text><text x="40" y="210" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#0f172a">FIGURE 2  <tspan font-style="italic" font-weight="normal">lim<tspan baseline-shift="sub" font-size="9">x&#8594;a</tspan> f(x) = L in all three cases</tspan></text>
+</svg>

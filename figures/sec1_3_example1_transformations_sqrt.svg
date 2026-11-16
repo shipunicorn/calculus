@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 190" width="660" height="190" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#d92672" />
+  </marker>
+</defs>
+
+        <line x1="15" y1="115" x2="105" y2="115" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <line x1="30" y1="155" x2="30" y2="50" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <text x="100" y="129" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">x</text>
+        <text x="20" y="55" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">y</text>
+        <text x="22" y="127" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" fill="#1e293b">0</text>
+        <line x1="50" y1="113" x2="50" y2="117" stroke="#1e293b" /><text x="48" y="127" font-family="Aptos, 'Segoe UI', sans-serif" font-size="9">1</text><line x1="28" y1="95" x2="32" y2="95" stroke="#1e293b" /><text x="21" y="97" font-family="Aptos, 'Segoe UI', sans-serif" font-size="9">1</text><path d="M 30 115.0 32 105.46537410754408 34 101.51600275073515 36 98.4855435231046 38 95.93074821508816 40 93.67992836443895 42 91.64503167515431 44 89.77375104452435 46 88.03200550147031 48 86.39612232263224 50 84.84886554222363 52 83.3772233983162 54 81.97108704620919 56 80.62241745238356 58 79.3246965993662 60 78.07255270620018 62 76.86149643017632 64 75.68773034465518 66 74.54800825220548 68 73.43952927031833 70 72.35985672887792 72 71.30685512473485 74 70.2786404500042 76 69.27354058196622 78 68.29006335030863 80 67.32687053772038 82 66.38275651956023 84 65.45663056931377 86 64.54750208904869 88 63.65446819475295" fill="none" stroke="#0284c7" stroke-width="1.8" /><text x="60" y="172" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#0f172a" text-anchor="middle">(a) y = √x</text>
+        <line x1="120" y1="115" x2="210" y2="115" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <line x1="135" y1="155" x2="135" y2="50" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <text x="205" y="129" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">x</text>
+        <text x="125" y="55" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">y</text>
+        <text x="127" y="127" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" fill="#1e293b">0</text>
+        <text x="121" y="143" font-family="Aptos, 'Segoe UI', sans-serif" font-size="9">-2</text><path d="M 135 140.0 137 131.41883669678967 139 127.86440247566165 141 125.13698917079414 143 122.83767339357934 145 120.81193552799506 147 118.98052850763888 149 117.29637594007191 151 115.72880495132328 153 114.256510090369 155 112.86397898800128 157 111.53950105848459 159 110.27397834158826 161 109.06017570714522 163 107.89222693942959 165 106.76529743558015 167 105.67534678715867 169 104.61895731018966 171 103.59320742698492 173 102.5955763432865 175 101.62387105599012 177 100.67616961226136 179 99.75077640500379 181 98.84618652376959 183 97.96105701527776 185 97.09418348394834 187 96.24448086760421 189 95.4109675123824 191 94.59275188014382 193 93.78902137527766 195 92.99903289196158 197 92.22210476876077 199 91.45760990264657" fill="none" stroke="#d92672" stroke-width="1.8" /><text x="165" y="172" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#0f172a" text-anchor="middle">(b) y = √x - 2</text>
+        <line x1="225" y1="115" x2="315" y2="115" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <line x1="240" y1="155" x2="240" y2="50" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <text x="310" y="129" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">x</text>
+        <text x="230" y="55" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">y</text>
+        <text x="232" y="127" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" fill="#1e293b">0</text>
+        <text x="260" y="127" font-family="Aptos, 'Segoe UI', sans-serif" font-size="9">2</text><path d="M 262 115.0 264 107.62135212627378 266 104.56501610500098 268 102.21980699154612 270 100.24270425254757 272 98.50084177231389 274 96.92607771769872 276 95.4779327142049 278 94.13003221000196 280 92.86405637882135 282 91.66666666666667 284 90.52779354269646 286 89.43961398309224 288 88.39590674768678 290 87.39162767886846 292 86.42261966752959 294 85.48540850509512 296 84.57705544238763 298 83.69504831500295 300 82.83721957845614 302 82.00168354462778 304 81.18678759222465 306 80.3910737268869" fill="none" stroke="#d92672" stroke-width="1.8" /><text x="270" y="172" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#0f172a" text-anchor="middle">(c) y = √(x - 2)</text>
+        <line x1="330" y1="115" x2="420" y2="115" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <line x1="345" y1="155" x2="345" y2="50" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <text x="415" y="129" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">x</text>
+        <text x="335" y="55" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">y</text>
+        <text x="337" y="127" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" fill="#1e293b">0</text>
+        <path d="M 345 115.0 347 122.62770071396474 349 125.78719779941187 351 128.21156518151633 353 130.25540142792948 355 132.05605730844883 357 133.68397465987655 359 135.18099916438052 361 136.57439559882374 363 137.8831021418942 365 139.1209075662211 367 140.29822128134703 369 141.42313036303267 371 142.50206603809315 373 143.54024272050702 375 144.54195783503985 377 145.51080285585894 379 146.44981572427585 381 147.3615933982356 383 148.24837658374534 385 149.11211461689766 387 149.95451590021213 389 150.77708763999664 391 151.58116753442704 393 152.3679493197531 395 153.13850356982368 397 153.89379478435183 399 154.63469554454898" fill="none" stroke="#d92672" stroke-width="1.8" /><text x="375" y="172" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#0f172a" text-anchor="middle">(d) y = -√x</text>
+        <line x1="435" y1="115" x2="525" y2="115" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <line x1="450" y1="155" x2="450" y2="50" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <text x="520" y="129" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">x</text>
+        <text x="440" y="55" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">y</text>
+        <text x="442" y="127" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" fill="#1e293b">0</text>
+        <path d="M 450 115.0 452 102.6049863398073 454 97.4708035759557 456 93.53120658003597 458 90.2099726796146 460 87.28390687377065 462 84.6385411777006 464 82.20587635788166 466 79.94160715191141 468 77.8149590194219 470 75.80352520489072 472 73.89039041781106 474 72.06241316007194 476 70.30914268809863 478 68.62210557917608 480 66.99431851806023 482 65.4199453592292 484 63.89404944805173 486 62.41241072786712 488 60.971388051413825 490 59.56781374754129 492 58.198911662155304 494 56.86223258500547 496 55.55560275655608 498 54.27708235540121" fill="none" stroke="#d92672" stroke-width="1.8" /><text x="480" y="172" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#0f172a" text-anchor="middle">(e) y = 2√x</text>
+        <line x1="540" y1="115" x2="630" y2="115" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <line x1="555" y1="155" x2="555" y2="50" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+        <text x="625" y="129" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">x</text>
+        <text x="545" y="55" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic" fill="#1e293b">y</text>
+        <text x="547" y="127" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" fill="#1e293b">0</text>
+        <path d="M 555 115.0 553 107.37229928603526 551 104.21280220058813 549 101.78843481848367 547 99.74459857207053 545 97.94394269155117 543 96.31602534012345 541 94.81900083561948 539 93.42560440117626 537 92.11689785810579 535 90.87909243377891 533 89.70177871865296 531 88.57686963696734 529 87.49793396190685 527 86.45975727949298 525 85.45804216496015 523 84.48919714414104 521 83.55018427572415 519 82.63840660176439 517 81.75162341625466 515 80.88788538310233 513 80.04548409978787 511 79.22291236000336 509 78.41883246557296 507 77.63205068024689 505 76.8614964301763 503 76.10620521564817 501 75.36530445545102" fill="none" stroke="#d92672" stroke-width="1.8" /><text x="585" y="172" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#0f172a" text-anchor="middle">(f) y = √(-x)</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 270" width="520" height="270" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+</defs>
+
+    <!-- Subfigure (a) -->
+    <line x1="30" y1="185" x2="235" y2="185" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <line x1="130" y1="210" x2="130" y2="40" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <text x="238" y="199" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">x</text>
+    <text x="116" y="45" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">y</text>
+    <text x="118" y="199" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+
+    <!-- Function curve y = |x| -->
+    <line x1="45" y1="100" x2="130" y2="185" stroke="#0284c7" stroke-width="2.2" />
+    <line x1="130" y1="185" x2="215" y2="100" stroke="#0284c7" stroke-width="2.2" />
+    <circle cx="130" cy="185" r="3" fill="#0284c7" />
+
+    <text x="65" y="230" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#1e293b">(a) <tspan font-style="italic" font-weight="normal">y = f(x) = |x|</tspan></text>
+    
+    <!-- Subfigure (b) -->
+    <line x1="280" y1="140" x2="485" y2="140" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <line x1="380" y1="210" x2="380" y2="40" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <text x="488" y="154" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">x</text>
+    <text x="366" y="45" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">y</text>
+    <text x="368" y="154" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+
+    <!-- Tick marks for 1 and -1 -->
+    <line x1="377" y1="95" x2="383" y2="95" stroke="#1e293b" stroke-width="1.2" />
+    <text x="366" y="99" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">1</text>
+    <line x1="377" y1="185" x2="383" y2="185" stroke="#1e293b" stroke-width="1.2" />
+    <text x="388" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">-1</text>
+
+    <!-- Derivative rays: y = 1 for x > 0, y = -1 for x < 0 -->
+    <line x1="384" y1="95" x2="465" y2="95" stroke="#db2777" stroke-width="2.2" />
+    <circle cx="380" cy="95" r="3.5" fill="#ffffff" stroke="#db2777" stroke-width="1.8" />
+
+    <line x1="295" y1="185" x2="376" y2="185" stroke="#db2777" stroke-width="2.2" />
+    <circle cx="380" cy="185" r="3.5" fill="#ffffff" stroke="#db2777" stroke-width="1.8" />
+
+    <text x="330" y="230" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#1e293b">(b) <tspan font-style="italic" font-weight="normal">y = f'(x)</tspan></text>
+    <text x="25" y="255" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#1e293b">FIGURE 5: Graph of f(x) = |x| and its Derivative f'(x)</text>
+</svg>

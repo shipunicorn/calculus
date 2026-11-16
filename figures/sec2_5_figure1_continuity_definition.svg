@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" width="380" height="260" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+</defs>
+
+    <!-- Coordinate axes -->
+    <line x1="45" y1="195" x2="335" y2="195" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <line x1="75" y1="225" x2="75" y2="20" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <text x="340" y="209" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">x</text>
+    <text x="61" y="25" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">y</text>
+    <text x="63" y="209" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+    
+    <!-- Function curve y = f(x) -->
+    <path d="M 55 174.0 C 108.6 144.6, 133.8 178.2, 167.4 144.6 S 192.6 94.19999999999999, 201.0 81.6 C 217.8 56.39999999999999, 234.6 43.79999999999999, 276.6 35.39999999999999"
+          fill="none" stroke="#0284c7" stroke-width="2.2" />
+    <text x="243.0" y="26.999999999999993" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" font-style="italic" fill="#0f172a">y = f(x)</text>
+
+    <!-- Dashed projection guidelines to a and f(a) -->
+    <line x1="201.0" y1="195" x2="201.0" y2="81.6" stroke="#0d9488" stroke-width="1.2" stroke-dasharray="4 3" />
+    <line x1="75" y1="81.6" x2="201.0" y2="81.6" stroke="#0d9488" stroke-width="1.2" stroke-dasharray="4 3" />
+
+    <!-- Solid point (a, f(a)) -->
+    <circle cx="201.0" cy="81.6" r="3.5" fill="#4338ca" />
+
+    <!-- Axis labels a and f(a) -->
+    <text x="197.0" y="211" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic" fill="#db2777">a</text>
+    <text x="51" y="85.6" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic" fill="#db2777">f(a)</text>
+
+    <!-- Pink approach arrows on x-axis -->
+    <line x1="175.0" y1="203" x2="193.0" y2="203" stroke="#db2777" stroke-width="1.5" marker-end="url(#arrow-pink)" />
+    <line x1="227.0" y1="203" x2="209.0" y2="203" stroke="#db2777" stroke-width="1.5" marker-end="url(#arrow-pink)" />
+    <text x="143.0" y="233" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" fill="#1e293b">As <tspan font-style="italic">x</tspan> approaches <tspan font-style="italic">a</tspan>,</text>
+
+    <!-- Pink approach arrows on y-axis -->
+    <line x1="83" y1="59.599999999999994" x2="83" y2="75.6" stroke="#db2777" stroke-width="1.5" marker-end="url(#arrow-pink)" />
+    <line x1="83" y1="103.6" x2="83" y2="87.6" stroke="#db2777" stroke-width="1.5" marker-end="url(#arrow-pink)" />
+    <text x="10" y="63.599999999999994" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" fill="#1e293b"><tspan font-style="italic">f(x)</tspan> approaches</text>
+    <text x="23" y="75.6" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" fill="#1e293b" font-style="italic">f(a).</text>
+    <text x="25" y="245" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#1e293b">FIGURE 1</text>
+</svg>

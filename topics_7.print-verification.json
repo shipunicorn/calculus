@@ -1,0 +1,110 @@
+{
+  "pdf": "C:\\dev\\calculus\\topics_7.print.pdf",
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "bytes": 2117253,
+  "pages": 14,
+  "raw_mermaid_pages": [],
+  "math_expected": true,
+  "math_expression_count": 543,
+  "raw_math_pages": [],
+  "pdf_encoding_findings": [],
+  "source_markdown": "C:\\dev\\calculus\\topics_7.md",
+  "source_encoding_findings": [],
+  "restarted_ordered_list_findings": [],
+  "unlisted_option_findings": [],
+  "mermaid_blocks": 0,
+  "layout_warnings": [],
+  "layout_warning_details": [],
+  "block_checks": [],
+  "rendered_all_pages": true,
+  "visual_pages": {
+    "1": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-001.png",
+      "ink_ratio": 0.112732,
+      "mean_brightness": 241.55
+    },
+    "2": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-002.png",
+      "ink_ratio": 0.099079,
+      "mean_brightness": 244.2
+    },
+    "3": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-003.png",
+      "ink_ratio": 0.081801,
+      "mean_brightness": 246.19
+    },
+    "4": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-004.png",
+      "ink_ratio": 0.07369,
+      "mean_brightness": 247.02
+    },
+    "5": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-005.png",
+      "ink_ratio": 0.085129,
+      "mean_brightness": 245.71
+    },
+    "6": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-006.png",
+      "ink_ratio": 0.090361,
+      "mean_brightness": 247.63
+    },
+    "7": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-007.png",
+      "ink_ratio": 0.093241,
+      "mean_brightness": 247.6
+    },
+    "8": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-008.png",
+      "ink_ratio": 0.068746,
+      "mean_brightness": 249.06
+    },
+    "9": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-009.png",
+      "ink_ratio": 0.049337,
+      "mean_brightness": 249.96
+    },
+    "10": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-010.png",
+      "ink_ratio": 0.089343,
+      "mean_brightness": 249.0
+    },
+    "11": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-011.png",
+      "ink_ratio": 0.053855,
+      "mean_brightness": 249.79
+    },
+    "12": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-012.png",
+      "ink_ratio": 0.060429,
+      "mean_brightness": 248.03
+    },
+    "13": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-013.png",
+      "ink_ratio": 0.112443,
+      "mean_brightness": 247.54
+    },
+    "14": {
+      "preview": "C:\\dev\\calculus\\topics_7.print-previews\\page-014.png",
+      "ink_ratio": 0.079749,
+      "mean_brightness": 245.83
+    }
+  },
+  "contact_sheets": [
+    "C:\\dev\\calculus\\topics_7.print-previews\\contact-sheet-001.png",
+    "C:\\dev\\calculus\\topics_7.print-previews\\contact-sheet-002.png",
+    "C:\\dev\\calculus\\topics_7.print-previews\\contact-sheet-003.png",
+    "C:\\dev\\calculus\\topics_7.print-previews\\contact-sheet-004.png"
+  ],
+  "near_blank_pages": [],
+  "sparse_pages": [],
+  "review_plan": {
+    "total_pages": 14,
+    "pages_to_review": [],
+    "reasons": {},
+    "notes": [
+      "math: confirm fractions, binomials, parentheses and spacing in the contact sheet"
+    ]
+  }
+}

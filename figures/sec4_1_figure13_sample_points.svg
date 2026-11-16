@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 310" width="580" height="310" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+</defs>
+<line x1="30" y1="240" x2="530" y2="240" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+<line x1="50" y1="260" x2="50" y2="40" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+<text x="535" y="254" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">x</text>
+<text x="34" y="45" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">y</text>
+<text x="36" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+<rect x="110.0" y="105.20611818546661" width="46.25" height="134.7938818145334" fill="#bae6fd" stroke="#0284c7" stroke-width="1.2" fill-opacity="0.65" />
+<line x1="130.8125" y1="240" x2="130.8125" y2="105.20611818546661" stroke="#0369a1" stroke-width="1.0" stroke-dasharray="3 3" />
+<circle cx="130.8125" cy="105.20611818546661" r="2.5" fill="#0369a1" />
+<rect x="156.25" y="156.6486549609589" width="46.25" height="83.35134503904109" fill="#bae6fd" stroke="#0284c7" stroke-width="1.2" fill-opacity="0.65" />
+<line x1="184.0" y1="240" x2="184.0" y2="156.6486549609589" stroke="#0369a1" stroke-width="1.0" stroke-dasharray="3 3" />
+<circle cx="184.0" cy="156.6486549609589" r="2.5" fill="#0369a1" />
+<rect x="202.5" y="192.71893137247775" width="46.25" height="47.28106862752223" fill="#bae6fd" stroke="#0284c7" stroke-width="1.2" fill-opacity="0.65" />
+<line x1="221.0" y1="240" x2="221.0" y2="192.71893137247775" stroke="#0369a1" stroke-width="1.0" stroke-dasharray="3 3" />
+<circle cx="221.0" cy="192.71893137247775" r="2.5" fill="#0369a1" />
+<rect x="248.75" y="222.2112463993573" width="46.25" height="17.7887536006427" fill="#bae6fd" stroke="#0284c7" stroke-width="1.2" fill-opacity="0.65" />
+<line x1="274.1875" y1="240" x2="274.1875" y2="222.2112463993573" stroke="#0369a1" stroke-width="1.0" stroke-dasharray="3 3" />
+<circle cx="274.1875" cy="222.2112463993573" r="2.5" fill="#0369a1" />
+<rect x="295.0" y="210.03271866800588" width="46.25" height="29.96728133199413" fill="#bae6fd" stroke="#0284c7" stroke-width="1.2" fill-opacity="0.65" />
+<line x1="325.0625" y1="240" x2="325.0625" y2="210.03271866800588" stroke="#0369a1" stroke-width="1.0" stroke-dasharray="3 3" />
+<circle cx="325.0625" cy="210.03271866800588" r="2.5" fill="#0369a1" />
+<rect x="341.25" y="174.7270202946375" width="46.25" height="65.27297970536252" fill="#bae6fd" stroke="#0284c7" stroke-width="1.2" fill-opacity="0.65" />
+<line x1="364.375" y1="240" x2="364.375" y2="174.7270202946375" stroke="#0369a1" stroke-width="1.0" stroke-dasharray="3 3" />
+<circle cx="364.375" cy="174.7270202946375" r="2.5" fill="#0369a1" />
+<rect x="387.5" y="124.17117921129996" width="46.25" height="115.82882078870004" fill="#bae6fd" stroke="#0284c7" stroke-width="1.2" fill-opacity="0.65" />
+<line x1="406.0" y1="240" x2="406.0" y2="124.17117921129996" stroke="#0369a1" stroke-width="1.0" stroke-dasharray="3 3" />
+<circle cx="406.0" cy="124.17117921129996" r="2.5" fill="#0369a1" />
+<rect x="433.75" y="57.92200133796629" width="46.25" height="182.0779986620337" fill="#bae6fd" stroke="#0284c7" stroke-width="1.2" fill-opacity="0.65" />
+<line x1="466.125" y1="240" x2="466.125" y2="57.92200133796629" stroke="#0369a1" stroke-width="1.0" stroke-dasharray="3 3" />
+<circle cx="466.125" cy="57.92200133796629" r="2.5" fill="#0369a1" />
+<path d="M 110.0 90.0 L 113.7 92.5 L 117.4 95.0 L 121.1 97.7 L 124.8 100.4 L 128.5 103.3 L 132.2 106.3 L 135.9 109.5 L 139.6 112.7 L 143.3 116.0 L 147.0 119.4 L 150.7 122.9 L 154.4 126.5 L 158.1 130.1 L 161.8 133.8 L 165.5 137.5 L 169.2 141.3 L 172.9 145.1 L 176.6 149.0 L 180.3 152.8 L 184.0 156.6 L 187.7 160.5 L 191.4 164.3 L 195.1 168.1 L 198.8 171.8 L 202.5 175.5 L 206.2 179.1 L 209.9 182.6 L 213.6 186.1 L 217.3 189.5 L 221.0 192.7 L 224.7 195.9 L 228.4 198.9 L 232.1 201.7 L 235.8 204.5 L 239.5 207.0 L 243.2 209.4 L 246.9 211.7 L 250.6 213.7 L 254.3 215.6 L 258.0 217.3 L 261.7 218.8 L 265.4 220.0 L 269.1 221.1 L 272.8 221.9 L 276.5 222.6 L 280.2 223.0 L 283.9 223.2 L 287.6 223.1 L 291.3 222.9 L 295.0 222.4 L 298.7 221.6 L 302.4 220.7 L 306.1 219.5 L 309.8 218.1 L 313.5 216.5 L 317.2 214.6 L 320.9 212.6 L 324.6 210.3 L 328.3 207.9 L 332.0 205.2 L 335.7 202.4 L 339.4 199.3 L 343.1 196.1 L 346.8 192.8 L 350.5 189.2 L 354.2 185.5 L 357.9 181.7 L 361.6 177.8 L 365.3 173.7 L 369.0 169.5 L 372.7 165.2 L 376.4 160.9 L 380.1 156.4 L 383.8 151.9 L 387.5 147.4 L 391.2 142.8 L 394.9 138.1 L 398.6 133.5 L 402.3 128.8 L 406.0 124.2 L 409.7 119.5 L 413.4 114.9 L 417.1 110.3 L 420.8 105.8 L 424.5 101.4 L 428.2 97.0 L 431.9 92.6 L 435.6 88.4 L 439.3 84.3 L 443.0 80.2 L 446.7 76.3 L 450.4 72.5 L 454.1 68.9 L 457.8 65.3 L 461.5 62.0 L 465.2 58.7 L 468.9 55.6 L 472.6 52.7 L 476.3 49.9 L 480.0 47.3" fill="none" stroke="#0284c7" stroke-width="2.2" />
+<text x="106" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">a</text>
+<text x="150.25" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x&#8321;</text>
+<text x="196.5" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x&#8322;</text>
+<text x="242.75" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x&#8323;</text>
+<text x="285.0" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x<sub>i-1</sub></text>
+<text x="336.25" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x<sub>i</sub></text>
+<text x="423.75" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x<sub>n-1</sub></text>
+<text x="476" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">b</text>
+<text x="124.8125" y="270" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x&#8321;*</text>
+<text x="178.0" y="270" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x&#8322;*</text>
+<text x="215.0" y="270" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x&#8323;*</text>
+<text x="319.0625" y="270" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x<sub>i</sub>*</text>
+<text x="460.125" y="270" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">x<sub>n</sub>*</text>
+<line x1="295.0" y1="185.03271866800588" x2="341.25" y2="185.03271866800588" stroke="#1e293b" stroke-width="1.0" />
+<line x1="295.0" y1="182.03271866800588" x2="295.0" y2="188.03271866800588" stroke="#1e293b" stroke-width="1.0" />
+<line x1="341.25" y1="182.03271866800588" x2="341.25" y2="188.03271866800588" stroke="#1e293b" stroke-width="1.0" />
+<text x="310.125" y="179.03271866800588" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">&#916;x</text>
+<text x="328.0625" y="230.03271866800588" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10" font-style="italic">f(x<sub>i</sub>*)</text>
+</svg>

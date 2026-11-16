@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+  </marker>
+</defs>
+<line x1="20" y1="240" x2="390" y2="240" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+<line x1="60" y1="280" x2="60" y2="35" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+<text x="385" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">x</text>
+<text x="44" y="42" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">y</text>
+<text x="46" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+<line x1="95" y1="130" x2="325" y2="180" stroke="#0284c7" stroke-width="1.8" />
+<circle cx="95" cy="130" r="3.2" fill="#1e293b" />
+<circle cx="325" cy="180" r="3.2" fill="#1e293b" />
+<text x="77" y="134" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12">A</text>
+<text x="331" y="190" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12">B</text>
+<path d="M 95 130 Q 210 30 325 180" fill="none" stroke="#1e293b" stroke-width="1.8" />
+<text x="280" y="80" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" font-style="italic">y = f(x)</text>
+<line x1="175" y1="147.3913043478261" x2="175" y2="80.79991296764796" stroke="#db2777" stroke-width="3.0" />
+<text x="187" y="118.09560865773702" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" font-style="italic" fill="#db2777" font-weight="bold">h(x)</text>
+<line x1="174" y1="240" x2="174" y2="147.3913043478261" stroke="#16a34a" stroke-width="1.6" />
+<path d="M 165 80.79991296764796 C 159 80.79991296764796, 159 160.39995648382398, 155 160.39995648382398 C 159 160.39995648382398, 159 240, 165 240" fill="none" stroke="#64748b" stroke-width="1.2" />
+<text x="127" y="164.39995648382398" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" font-style="italic">f(x)</text>
+<line x1="230" y1="225" x2="183" y2="159.3913043478261" stroke="#1e293b" stroke-width="1.0" marker-end="url(#arrow)" />
+<text x="195" y="270" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">f(a) + <tspan font-style="italic">m</tspan>(x - a)</text>
+<line x1="95" y1="130" x2="95" y2="240" stroke="#64748b" stroke-width="0.8" stroke-dasharray="3 2" />
+<text x="92" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">a</text>
+<text x="172" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">x</text>
+<line x1="325" y1="180" x2="325" y2="240" stroke="#64748b" stroke-width="0.8" stroke-dasharray="3 2" />
+<text x="322" y="256" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">b</text>
+</svg>

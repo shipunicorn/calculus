@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" width="640" height="260" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+</defs>
+
+    <!-- Panel A: Corner -->
+    <line x1="25" y1="175" x2="185" y2="175" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+    <line x1="50" y1="200" x2="50" y2="55" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+    <text x="188" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">x</text>
+    <text x="38" y="60" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">y</text>
+    <text x="42" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10">0</text>
+
+    <!-- Tick mark at a -->
+    <line x1="110" y1="172" x2="110" y2="178" stroke="#1e293b" stroke-width="1.2" />
+    <text x="107" y="191" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">a</text>
+
+    <!-- Corner curve -->
+    <!-- Left branch curving up sharply to (oxA+20, oy-75) -->
+    <path d="M 55 145 Q 80 140, 110 100" fill="none" stroke="#0284c7" stroke-width="2" />
+    <!-- Right branch curving down sharply from peak -->
+    <path d="M 110 100 Q 135 140, 165 140" fill="none" stroke="#0284c7" stroke-width="2" />
+
+    <text x="75" y="215" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" fill="#1e293b">(a) A corner</text>
+    
+    <!-- Panel B: Discontinuity -->
+    <line x1="235" y1="175" x2="395" y2="175" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+    <line x1="260" y1="200" x2="260" y2="55" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+    <text x="398" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">x</text>
+    <text x="248" y="60" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">y</text>
+    <text x="252" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10">0</text>
+
+    <!-- Tick mark at a -->
+    <line x1="320" y1="172" x2="320" y2="178" stroke="#1e293b" stroke-width="1.2" />
+    <text x="317" y="191" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">a</text>
+
+    <!-- Left curve ending at open circle -->
+    <path d="M 265 160 Q 290 120, 316 110" fill="none" stroke="#0284c7" stroke-width="2" />
+    <circle cx="320" cy="110" r="3.5" fill="#ffffff" stroke="#0284c7" stroke-width="1.8" />
+
+    <!-- Right curve starting at solid dot -->
+    <circle cx="320" cy="150" r="3.2" fill="#0284c7" />
+    <path d="M 320 150 Q 345 155, 375 130" fill="none" stroke="#0284c7" stroke-width="2" />
+
+    <text x="275" y="215" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" fill="#1e293b">(b) A discontinuity</text>
+    
+    <!-- Panel C: Vertical tangent -->
+    <line x1="445" y1="175" x2="605" y2="175" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+    <line x1="470" y1="200" x2="470" y2="55" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+    <text x="608" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">x</text>
+    <text x="458" y="60" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">y</text>
+    <text x="462" y="189" font-family="Aptos, 'Segoe UI', sans-serif" font-size="10">0</text>
+
+    <!-- Tick mark at a -->
+    <line x1="530" y1="172" x2="530" y2="178" stroke="#1e293b" stroke-width="1.2" />
+    <text x="527" y="191" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11" font-style="italic">a</text>
+
+    <!-- Vertical tangent line in pink/magenta -->
+    <line x1="530" y1="80" x2="530" y2="175" stroke="#db2777" stroke-width="2" />
+
+    <!-- Curve with vertical inflection at x = a -->
+    <!-- Left half: rises to local crest, plunges vertically at x=a -->
+    <path d="M 475 150 C 495 100, 525 105, 530 127" fill="none" stroke="#0284c7" stroke-width="2" />
+    <!-- Right half: continues from vertical slope down to trough and rises -->
+    <path d="M 530 127 C 535 150, 565 155, 585 125" fill="none" stroke="#0284c7" stroke-width="2" />
+
+    <text x="485" y="215" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" fill="#1e293b">(c) A vertical tangent</text>
+    <text x="25" y="245" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold" fill="#1e293b">FIGURE 7: Three Ways for a Function to Fail to Be Differentiable</text>
+</svg>

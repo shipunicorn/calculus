@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" width="420" height="250" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#d92672" />
+  </marker>
+</defs>
+
+    <line x1="40" y1="185" x2="370" y2="185" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+    <line x1="80" y1="215" x2="80" y2="25" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+    <text x="375" y="199" font-family="Aptos, 'Segoe UI', sans-serif" font-size="14" font-style="italic" fill="#1e293b">x</text>
+    <text x="66" y="30" font-family="Aptos, 'Segoe UI', sans-serif" font-size="14" font-style="italic" fill="#1e293b">y</text>
+    <text x="66" y="201" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" fill="#1e293b">0</text>
+    
+    <line x1="120" y1="140" x2="120" y2="185" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+    <line x1="320" y1="95" x2="320" y2="185" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+    
+    <line x1="120" y1="185" x2="320" y2="185" stroke="#d92672" stroke-width="3" />
+    <circle cx="120" cy="185" r="3.5" fill="#d92672" />
+    <circle cx="320" cy="185" r="3.5" fill="#d92672" />
+    
+    <path d="M 120 191 Q 130 199, 210.0 199 Q 220.0 203, 220.0 207 Q 220.0 203, 230.0 199 Q 310 199, 320 191" fill="none" stroke="#334155" stroke-width="1" />
+    <text x="220.0" y="223" font-family="Aptos, 'Segoe UI', sans-serif" font-size="14" fill="#0f172a" text-anchor="middle">domain</text>
+    
+    <line x1="120" y1="140" x2="80" y2="140" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+    <line x1="260" y1="60" x2="80" y2="60" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 3" />
+    
+    <line x1="80" y1="60" x2="80" y2="140" stroke="#16a34a" stroke-width="3" />
+    <circle cx="80" cy="60" r="3.5" fill="#16a34a" />
+    <circle cx="80" cy="140" r="3.5" fill="#16a34a" />
+    
+    <path d="M 74 60 Q 66 70, 66 90.0 Q 62 100.0, 58 100.0 Q 62 100.0, 66 110.0 Q 66 130, 74 140" fill="none" stroke="#334155" stroke-width="1" />
+    <text x="52" y="104.0" font-family="Aptos, 'Segoe UI', sans-serif" font-size="14" fill="#0f172a" text-anchor="end">range</text>
+    <path d="M 120 140 Q 200 60, 260 60 T 320 95" fill="none" stroke="#0284c7" stroke-width="2.2" />
+    <circle cx="120" cy="140" r="3.5" fill="#0284c7" />
+    <circle cx="320" cy="95" r="3.5" fill="#0284c7" />
+    <text x="185" y="110" font-family="Aptos, 'Segoe UI', sans-serif" font-size="15" font-style="italic" fill="#0f172a">y = f(x)</text><text x="40" y="240" font-family="Aptos, 'Segoe UI', sans-serif" font-size="13" font-weight="bold" fill="#0f172a" letter-spacing="0.5">FIGURE 5</text>
+</svg>
