@@ -768,11 +768,12 @@ where $C$ and $D$ are arbitrary constants.
 #### Analysis and Justification
 
 Let $F$ denote an antiderivative of $f$, so $F'(x) = f(x)$.
-1. **Behavior for Small $x$**: On the left portion of the domain, the pink curve $f$ lies below the $x$-axis ($f(x) < 0$). Therefore, the true antiderivative $F$ must have a negative derivative and must be **strictly decreasing**.
-   - Curves $a$ and $c$ are both strictly increasing for small $x$, which contradicts $f(x) < 0$.
-   - Curve $b$ is decreasing on this interval.
-2. **Critical Numbers and Transitions**: The pink curve $f$ crosses the $x$-axis from negative to positive at $x \approx 1.4$. At this point, the derivative $F'$ is zero, which requires $F$ to have a horizontal tangent line and transition from decreasing to increasing (a local minimum). Curve $b$ has its local minimum precisely at this $x$-intercept.
-3. **Behavior for Large $x$**: For $x > 1.4$, $f(x) > 0$ and increases, meaning $F$ must be increasing with positive concavity ($F'' = f' > 0$). Curve $b$ is strictly increasing and concave upward.
+
+- **Behavior for Small $x$**: On the left portion of the domain, the pink curve $f$ lies below the $x$-axis ($f(x) < 0$). Therefore, the true antiderivative $F$ must have a negative derivative and must be **strictly decreasing**.
+  - Curves $a$ and $c$ are both strictly increasing for small $x$, which contradicts $f(x) < 0$.
+  - Curve $b$ is decreasing on this interval.
+- **Critical Numbers and Transitions**: The pink curve $f$ crosses the $x$-axis from negative to positive at $x \approx 1.4$. At this point, the derivative $F'$ is zero, which requires $F$ to have a horizontal tangent line and transition from decreasing to increasing (a local minimum). Curve $b$ has its local minimum precisely at this $x$-intercept.
+- **Behavior for Large $x$**: For $x > 1.4$, $f(x) > 0$ and increases, meaning $F$ must be increasing with positive concavity ($F'' = f' > 0$). Curve $b$ is strictly increasing and concave upward.
 
 **Conclusion**: **Curve $b$ is the antiderivative of $f$**.
 
@@ -783,13 +784,14 @@ Let $F$ denote an antiderivative of $f$, so $F'(x) = f(x)$.
 #### Analysis and Justification
 
 Let $F$ denote an antiderivative of $f$, so $F'(x) = f(x)$.
-1. **Zero Slope Condition**: The pink curve $f$ crosses the $x$-axis from positive to negative at $x \approx 1.2$, so $f(1.2) = 0$. Consequently, the antiderivative must have a horizontal tangent line ($F'(1.2) = 0$).
-   - Curve $c$ has a non-zero, steep positive slope at $x \approx 1.2$, immediately eliminating $c$.
-   - Curve $b$ is increasing through this $x$-value, failing the horizontal tangent test.
-   - Curve $a$ reaches its global peak (horizontal tangent line) exactly at $x \approx 1.2$.
-2. **Intervals of Increase and Decrease**:
-   - For $0 \le x < 1.2$, $f(x) > 0 \implies F$ must be strictly increasing. Curve $a$ increases from $(0, 0)$ to its maximum.
-   - For $x > 1.2$, $f(x) < 0 \implies F$ must be strictly decreasing. Curve $a$ decreases steadily toward zero.
+
+- **Zero Slope Condition**: The pink curve $f$ crosses the $x$-axis from positive to negative at $x \approx 1.2$, so $f(1.2) = 0$. Consequently, the antiderivative must have a horizontal tangent line ($F'(1.2) = 0$).
+  - Curve $c$ has a non-zero, steep positive slope at $x \approx 1.2$, immediately eliminating $c$.
+  - Curve $b$ is increasing through this $x$-value, failing the horizontal tangent test.
+  - Curve $a$ reaches its global peak (horizontal tangent line) exactly at $x \approx 1.2$.
+- **Intervals of Increase and Decrease**:
+  - For $0 \le x < 1.2$, $f(x) > 0 \implies F$ must be strictly increasing. Curve $a$ increases from $(0, 0)$ to its maximum.
+  - For $x > 1.2$, $f(x) < 0 \implies F$ must be strictly decreasing. Curve $a$ decreases steadily toward zero.
 
 **Conclusion**: **Curve $a$ is the antiderivative of $f$**.
 
@@ -828,17 +830,18 @@ Antidifferentiating each constant segment produces a piecewise linear function:
 $$f(x) = \begin{cases} 2x + C & \text{if } 0 \le x \le 1 \\ x + D & \text{if } 1 < x < 2 \\ -x + E & \text{if } 2 \le x \le 3 \end{cases}$$
 
 We determine the constants using continuity and the initial condition:
-1. **On $[0, 1]$**: $f(0) = -1 \implies 2(0) + C = -1 \implies C = -1$.  
-   Thus, $f(x) = 2x - 1$ on $[0, 1]$.  
-   At the endpoint $x = 1$: $f(1) = 2(1) - 1 = 1$.
-2. **On $(1, 2)$**: By continuity at $x = 1$, we must have $\lim_{x \to 1^+} f(x) = f(1)$:  
-   $$1 + D = 1 \implies D = 0$$  
-   Thus, $f(x) = x$ on $[1, 2]$.  
-   At the endpoint $x = 2$: $f(2) = 2$.
-3. **On $[2, 3]$**: By continuity at $x = 2$, $\lim_{x \to 2^+} f(x) = f(2)$:  
-   $$-2 + E = 2 \implies E = 4$$  
-   Thus, $f(x) = -x + 4$ on $[2, 3]$.  
-   At the right endpoint $x = 3$: $f(3) = -3 + 4 = 1$.
+
+- **On $[0, 1]$**: $f(0) = -1 \implies 2(0) + C = -1 \implies C = -1$.  
+  Thus, $f(x) = 2x - 1$ on $[0, 1]$.  
+  At the endpoint $x = 1$: $f(1) = 2(1) - 1 = 1$.
+- **On $(1, 2)$**: By continuity at $x = 1$, we must have $\lim_{x \to 1^+} f(x) = f(1)$:  
+  $$1 + D = 1 \implies D = 0$$  
+  Thus, $f(x) = x$ on $[1, 2]$.  
+  At the endpoint $x = 2$: $f(2) = 2$.
+- **On $[2, 3]$**: By continuity at $x = 2$, $\lim_{x \to 2^+} f(x) = f(2)$:  
+  $$-2 + E = 2 \implies E = 4$$  
+  Thus, $f(x) = -x + 4$ on $[2, 3]$.  
+  At the right endpoint $x = 3$: $f(3) = -3 + 4 = 1$.
 
 The complete continuous function is:
 $$f(x) = \begin{cases} 2x - 1 & \text{if } 0 \le x \le 1 \\ x & \text{if } 1 < x < 2 \\ -x + 4 & \text{if } 2 \le x \le 3 \end{cases}$$

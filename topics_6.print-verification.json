@@ -1,13 +1,11 @@
 {
   "pdf": "C:\\dev\\calculus\\topics_6.print.pdf",
-  "ok": false,
-  "errors": [
-    "a numbered item's printed number will not match its source number on Markdown source lines [773, 789, 837] -- it follows a bullet list, table, or code fence, which restarts the printed list at 1; rewrite it as a bold paragraph (e.g. '**3.** text') instead of native '3. text' syntax"
-  ],
+  "ok": true,
+  "errors": [],
   "warnings": [
     "visually sparse pages should be reviewed: [26]"
   ],
-  "bytes": 4128352,
+  "bytes": 4140818,
   "pages": 26,
   "raw_mermaid_pages": [],
   "math_expected": true,
@@ -16,23 +14,7 @@
   "pdf_encoding_findings": [],
   "source_markdown": "C:\\dev\\calculus\\topics_6.md",
   "source_encoding_findings": [],
-  "restarted_ordered_list_findings": [
-    {
-      "line": 773,
-      "number": 2,
-      "text": "2. **Critical Numbers and Transitions**: The pink curve $f$ crosses the $x$-axis from negative to positive at $x \\approx 1.4$. At this point, the derivative $F'$ is zero, which requires $F$ to have a horizontal tangent line and transition from decreasing to increasing (a local minimum). Curve $b$ has its local minimum precisely at this $x$-intercept."
-    },
-    {
-      "line": 789,
-      "number": 2,
-      "text": "2. **Intervals of Increase and Decrease**:"
-    },
-    {
-      "line": 837,
-      "number": 3,
-      "text": "3. **On $[2, 3]$**: By continuity at $x = 2$, $\\lim_{x \\to 2^+} f(x) = f(2)$:"
-    }
-  ],
+  "restarted_ordered_list_findings": [],
   "unlisted_option_findings": [],
   "mermaid_blocks": 0,
   "layout_warnings": [],
@@ -57,23 +39,23 @@
     },
     "4": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-004.png",
-      "ink_ratio": 0.083085,
-      "mean_brightness": 245.36
+      "ink_ratio": 0.078118,
+      "mean_brightness": 245.89
     },
     "5": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-005.png",
-      "ink_ratio": 0.060227,
-      "mean_brightness": 248.0
+      "ink_ratio": 0.063614,
+      "mean_brightness": 247.65
     },
     "6": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-006.png",
-      "ink_ratio": 0.1077,
-      "mean_brightness": 244.13
+      "ink_ratio": 0.101211,
+      "mean_brightness": 244.82
     },
     "7": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-007.png",
-      "ink_ratio": 0.057345,
-      "mean_brightness": 248.41
+      "ink_ratio": 0.066209,
+      "mean_brightness": 247.44
     },
     "8": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-008.png",
@@ -127,8 +109,8 @@
     },
     "18": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-018.png",
-      "ink_ratio": 0.061161,
-      "mean_brightness": 248.1
+      "ink_ratio": 0.060948,
+      "mean_brightness": 248.12
     },
     "19": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-019.png",
@@ -147,8 +129,8 @@
     },
     "22": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-022.png",
-      "ink_ratio": 0.07882,
-      "mean_brightness": 246.01
+      "ink_ratio": 0.078687,
+      "mean_brightness": 246.02
     },
     "23": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-023.png",
@@ -157,8 +139,8 @@
     },
     "24": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-024.png",
-      "ink_ratio": 0.06084,
-      "mean_brightness": 247.78
+      "ink_ratio": 0.060778,
+      "mean_brightness": 247.79
     },
     "25": {
       "preview": "C:\\dev\\calculus\\topics_6.print-previews\\page-025.png",
@@ -187,5 +169,19 @@
       "ink_ratio": 0.017976,
       "text_characters": 511
     }
-  ]
+  ],
+  "review_plan": {
+    "total_pages": 26,
+    "pages_to_review": [
+      26
+    ],
+    "reasons": {
+      "26": [
+        "sparse page (little text and ink): confirm it is a deliberate last page, not a stray break"
+      ]
+    },
+    "notes": [
+      "math: confirm fractions, binomials, parentheses and spacing in the contact sheet"
+    ]
+  }
 }

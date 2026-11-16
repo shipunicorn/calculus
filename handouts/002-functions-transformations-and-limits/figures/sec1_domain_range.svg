@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" width="520" height="260" role="img" aria-labelledby="fig1-title fig1-desc" style="background-color: #ffffff; display: block; margin: 0 auto;">
+  <title id="fig1-title">Domain and Range Projections</title>
+  <desc id="fig1-desc">Shows domain as projection onto horizontal axis and range as projection onto vertical axis</desc>
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+    </marker>
+  </defs>
+
+  <!-- Coordinate Axes -->
+  <line x1="40" y1="210" x2="480" y2="210" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+  <line x1="70" y1="235" x2="70" y2="30" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+  <text x="485" y="214" font-family="Aptos, sans-serif" font-size="14" font-style="italic" fill="#1e293b">x</text>
+  <text x="66" y="24" font-family="Aptos, sans-serif" font-size="14" font-style="italic" fill="#1e293b">y</text>
+  <text x="56" y="224" font-family="'Cascadia Mono', monospace" font-size="12" fill="#64748b">0</text>
+
+  <!-- Curve y = f(x): starts (120, 160), peaks (270, 70), ends (420, 120) -->
+  <path d="M 120 160 C 180 70, 240 70, 270 70 C 320 70, 380 90, 420 120" fill="none" stroke="#0284c7" stroke-width="2.5" />
+  <circle cx="120" cy="160" r="4" fill="#0284c7" />
+  <circle cx="420" cy="120" r="4" fill="#0284c7" />
+  <text x="285" y="65" font-family="Aptos, sans-serif" font-size="14" font-style="italic" font-weight="bold" fill="#0369a1">y = f(x)</text>
+
+  <!-- Domain Projections onto x-axis -->
+  <line x1="120" y1="160" x2="120" y2="210" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" />
+  <line x1="420" y1="120" x2="420" y2="210" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" />
+  <line x1="120" y1="210" x2="420" y2="210" stroke="#d92672" stroke-width="3.5" />
+  <circle cx="120" cy="210" r="4" fill="#d92672" />
+  <circle cx="420" cy="210" r="4" fill="#d92672" />
+  
+  <text x="120" y="230" font-family="'Cascadia Mono', monospace" font-size="13" fill="#0f172a" text-anchor="middle">a</text>
+  <text x="420" y="230" font-family="'Cascadia Mono', monospace" font-size="13" fill="#0f172a" text-anchor="middle">b</text>
+  <text x="270" y="232" font-family="Aptos, sans-serif" font-size="13" font-weight="bold" fill="#be185d" text-anchor="middle">Domain: [a, b]</text>
+
+  <!-- Range Projections onto y-axis -->
+  <line x1="120" y1="160" x2="70" y2="160" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" />
+  <line x1="270" y1="70" x2="70" y2="70" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" />
+  <line x1="70" y1="70" x2="70" y2="160" stroke="#16a34a" stroke-width="3.5" />
+  <circle cx="70" cy="70" r="4" fill="#16a34a" />
+  <circle cx="70" cy="160" r="4" fill="#16a34a" />
+  
+  <text x="60" y="74" font-family="'Cascadia Mono', monospace" font-size="13" fill="#0f172a" text-anchor="end">M</text>
+  <text x="60" y="164" font-family="'Cascadia Mono', monospace" font-size="13" fill="#0f172a" text-anchor="end">m</text>
+  <text x="60" y="118" font-family="Aptos, sans-serif" font-size="12" font-weight="bold" fill="#15803d" text-anchor="end">Range: [m, M]</text>
+
+</svg>
