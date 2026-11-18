@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 280" width="540" height="280" role="img" aria-labelledby="abs-title abs-desc" style="background-color: #ffffff; display: block; margin: 0 auto;">
+  <title id="abs-title">Graph of f(x) = |x| and its Derivative f'(x)</title>
+  <desc id="abs-desc">Side-by-side graphs showing f(x) = |x| with a corner at the origin and its derivative f'(x) jumping between -1 and +1</desc>
+  <rect x="0" y="0" width="540" height="280" fill="#ffffff" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+    </marker>
+  </defs>
+
+  <!-- Panel A: y = |x| -->
+  <line x1="30" y1="185" x2="235" y2="185" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+  <line x1="130" y1="220" x2="130" y2="40" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+  <text x="240" y="189" font-family="Aptos, sans-serif" font-size="13" font-style="italic" fill="#1e293b">x</text>
+  <text x="114" y="36" font-family="Aptos, sans-serif" font-size="13" font-style="italic" fill="#1e293b">y</text>
+  <text x="116" y="200" font-family="'Cascadia Mono', monospace" font-size="11" fill="#64748b">0</text>
+
+  <!-- V-shape curve -->
+  <line x1="50" y1="105" x2="130" y2="185" stroke="#0284c7" stroke-width="2.5" />
+  <line x1="130" y1="185" x2="210" y2="105" stroke="#0284c7" stroke-width="2.5" />
+  <circle cx="130" cy="185" r="4" fill="#0284c7" />
+
+  <text x="45" y="95" font-family="'Cascadia Mono', monospace" font-size="11" fill="#0284c7">m = -1</text>
+  <text x="175" y="95" font-family="'Cascadia Mono', monospace" font-size="11" fill="#0284c7">m = +1</text>
+
+
+  <!-- Panel B: y = f'(x) -->
+  <line x1="290" y1="140" x2="495" y2="140" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+  <line x1="390" y1="220" x2="390" y2="40" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+  <text x="500" y="144" font-family="Aptos, sans-serif" font-size="13" font-style="italic" fill="#1e293b">x</text>
+  <text x="374" y="36" font-family="Aptos, sans-serif" font-size="13" font-style="italic" fill="#1e293b">y</text>
+  <text x="376" y="155" font-family="'Cascadia Mono', monospace" font-size="11" fill="#64748b">0</text>
+
+  <!-- Ticks y = 1 and -1 -->
+  <line x1="387" y1="95" x2="393" y2="95" stroke="#1e293b" stroke-width="1.2" />
+  <text x="374" y="99" font-family="'Cascadia Mono', monospace" font-size="11" fill="#1e293b">1</text>
+  <line x1="387" y1="185" x2="393" y2="185" stroke="#1e293b" stroke-width="1.2" />
+  <text x="400" y="189" font-family="'Cascadia Mono', monospace" font-size="11" fill="#1e293b">-1</text>
+
+  <!-- Derivative rays -->
+  <line x1="395" y1="95" x2="480" y2="95" stroke="#db2777" stroke-width="2.5" />
+  <circle cx="390" cy="95" r="4" fill="#ffffff" stroke="#db2777" stroke-width="2" />
+
+  <line x1="305" y1="185" x2="385" y2="185" stroke="#db2777" stroke-width="2.5" />
+  <circle cx="390" cy="185" r="4" fill="#ffffff" stroke="#db2777" stroke-width="2" />
+
+  <rect x="20" y="235" width="220" height="22" fill="#ffffff" />
+  <text x="130" y="250" font-family="Aptos, sans-serif" font-size="13" font-weight="bold" fill="#1e293b" text-anchor="middle">(a) f(x) = |x| (Corner at 0)</text>
+
+  <rect x="290" y="235" width="200" height="22" fill="#ffffff" />
+  <text x="390" y="250" font-family="Aptos, sans-serif" font-size="13" font-weight="bold" fill="#1e293b" text-anchor="middle">(b) Derivative y = f'(x)</text>
+</svg>

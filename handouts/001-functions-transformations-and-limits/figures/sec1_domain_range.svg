@@ -20,8 +20,6 @@
 
   <!-- Curve y = f(x): starts (ox+50, 150), peaks (ox+190, 65), ends (ox+330, 115) -->
   <path d="M 160 150 C 220 65, 270 65, 300 65 C 350 65, 400 85, 440 115" fill="none" stroke="#0284c7" stroke-width="2.5" />
-  <circle cx="160" cy="150" r="4" fill="#0284c7" />
-  <circle cx="440" cy="115" r="4" fill="#0284c7" />
   <text x="315" y="60" font-family="Aptos, sans-serif" font-size="14" font-style="italic" font-weight="bold" fill="#0369a1">y = f(x)</text>
 
   <!-- Domain Projections onto x-axis -->
@@ -41,6 +39,8 @@
   <line x1="110" y1="65" x2="110" y2="150" stroke="#16a34a" stroke-width="3.5" />
   <circle cx="110" cy="65" r="4" fill="#16a34a" />
   <circle cx="110" cy="150" r="4" fill="#16a34a" />
+  <circle cx="160" cy="150" r="4" fill="#0284c7" />
+  <circle cx="440" cy="115" r="4" fill="#0284c7" />
   
   <text x="96" y="69" font-family="'Cascadia Mono', monospace" font-size="13" fill="#0f172a" text-anchor="end">M</text>
   <text x="96" y="154" font-family="'Cascadia Mono', monospace" font-size="13" fill="#0f172a" text-anchor="end">m</text>

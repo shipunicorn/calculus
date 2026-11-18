@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="540" height="320" role="img" aria-labelledby="parabola-title parabola-desc" style="background-color: #ffffff; display: block; margin: 0 auto;">
+  <title id="parabola-title">Tangent Line to the Parabola y = x^2 at P(1, 1)</title>
+  <desc id="parabola-desc">Graph of y = x^2 with tangent line y = 2x - 1 having slope 2 at point P(1, 1)</desc>
+  <rect x="0" y="0" width="540" height="320" fill="#ffffff" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+    </marker>
+  </defs>
+
+  <!-- Axes -->
+  <line x1="60" y1="240" x2="480" y2="240" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+  <line x1="200" y1="290" x2="200" y2="35" stroke="#1e293b" stroke-width="1.6" marker-end="url(#arrow)" />
+  <text x="485" y="244" font-family="Aptos, sans-serif" font-size="14" font-style="italic" fill="#1e293b">x</text>
+  <text x="180" y="30" font-family="Aptos, sans-serif" font-size="14" font-style="italic" fill="#1e293b">y</text>
+
+  <!-- Ticks -->
+  <line x1="290" y1="237" x2="290" y2="243" stroke="#1e293b" stroke-width="1.2" />
+  <text x="286" y="258" font-family="'Cascadia Mono', monospace" font-size="12" fill="#1e293b">1</text>
+  <line x1="380" y1="237" x2="380" y2="243" stroke="#1e293b" stroke-width="1.2" />
+  <text x="376" y="258" font-family="'Cascadia Mono', monospace" font-size="12" fill="#1e293b">2</text>
+  <line x1="110" y1="237" x2="110" y2="243" stroke="#1e293b" stroke-width="1.2" />
+  <text x="102" y="258" font-family="'Cascadia Mono', monospace" font-size="12" fill="#1e293b">-1</text>
+
+  <line x1="197" y1="150" x2="203" y2="150" stroke="#1e293b" stroke-width="1.2" />
+  <text x="180" y="154" font-family="'Cascadia Mono', monospace" font-size="12" fill="#1e293b">1</text>
+  <line x1="197" y1="60" x2="203" y2="60" stroke="#1e293b" stroke-width="1.2" />
+  <text x="180" y="64" font-family="'Cascadia Mono', monospace" font-size="12" fill="#1e293b">2</text>
+
+  <!-- Curve y = x^2 (ox=200, oy=240, ux=90, uy=90) -->
+  <!-- from x = -1.4 (px=74, py=63.6) to x = 1.6 (px=344, py=9.6) -->
+  <path d="M 83 66 Q 200 240 344 10" fill="none" stroke="#0284c7" stroke-width="2.5" />
+  
+  <!-- Tangent line at (1,1): y = 2x - 1 (px1=182, py1=312 to px2=362, py2=-12, clipped to canvas) -->
+  <line x1="155" y1="294" x2="350" y2="40" stroke="#db2777" stroke-width="2.2" />
+
+  <!-- Dashed guides for P(1, 1): (290, 150) -->
+  <line x1="290" y1="240" x2="290" y2="150" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" />
+  <line x1="200" y1="150" x2="290" y2="150" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3" />
+
+  <!-- Point P(1, 1) -->
+  <circle cx="290" cy="150" r="4.5" fill="#1e293b" />
+
+  <!-- Labels with background rectangles to prevent lines running through text -->
+  <rect x="175" y="244" width="20" height="16" fill="#ffffff" />
+  <text x="184" y="256" font-family="'Cascadia Mono', monospace" font-size="12" fill="#64748b">0</text>
+
+  <rect x="300" y="140" width="60" height="20" fill="#ffffff" />
+  <text x="302" y="155" font-family="'Cascadia Mono', monospace" font-size="12" font-weight="bold" fill="#1e293b">P(1, 1)</text>
+
+  <rect x="80" y="45" width="65" height="20" fill="#ffffff" />
+  <text x="82" y="60" font-family="Aptos, sans-serif" font-size="13" font-style="italic" font-weight="bold" fill="#0284c7">y = x²</text>
+
+  <rect x="310" y="70" width="205" height="38" fill="#ffffff" stroke="#db2777" stroke-width="1" rx="4" />
+  <text x="318" y="87" font-family="Aptos, sans-serif" font-size="12" font-weight="bold" fill="#db2777">Tangent line at (1, 1):</text>
+  <text x="318" y="102" font-family="'Cascadia Mono', monospace" font-size="12" fill="#db2777">y = 2x - 1 (m = 2)</text>
+
+  <text x="270" y="305" font-family="Aptos, sans-serif" font-size="13" font-weight="bold" fill="#1e293b" text-anchor="middle">Figure: Tangent Line to the Parabola y = x² at P(1, 1)</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 260" width="580" height="260" role="img" aria-labelledby="q2-rate-title q2-rate-desc" style="background-color: #ffffff; display: block; margin: 0 auto;">
+  <title id="q2-rate-title">Piecewise Linear Rate Graph</title>
+  <desc id="q2-rate-desc">Graph of rate function f(x) on interval negative three to five with linear segments</desc>
+  <rect x="0" y="0" width="580" height="260" fill="#ffffff" />
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+    </marker>
+  </defs>
+  <line x1="40" y1="130" x2="550" y2="130" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+  <line x1="250" y1="245" x2="250" y2="20" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+  <text x="555" y="134" font-family="Aptos, sans-serif" font-size="12" font-style="italic" fill="#1e293b">x</text>
+  <text x="234" y="18" font-family="Aptos, sans-serif" font-size="12" font-style="italic" fill="#1e293b">y</text>
+  <text x="236" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#64748b">0</text>
+  <line x1="100.0" y1="127" x2="100.0" y2="133" stroke="#1e293b" stroke-width="1.2" />
+  <text x="100.0" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="middle">-3</text>
+  <line x1="150.0" y1="127" x2="150.0" y2="133" stroke="#1e293b" stroke-width="1.2" />
+  <text x="150.0" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="middle">-2</text>
+  <line x1="200.0" y1="127" x2="200.0" y2="133" stroke="#1e293b" stroke-width="1.2" />
+  <text x="200.0" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="middle">-1</text>
+  <line x1="300.0" y1="127" x2="300.0" y2="133" stroke="#1e293b" stroke-width="1.2" />
+  <text x="300.0" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="middle">1</text>
+  <line x1="350.0" y1="127" x2="350.0" y2="133" stroke="#1e293b" stroke-width="1.2" />
+  <text x="350.0" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="middle">2</text>
+  <line x1="400.0" y1="127" x2="400.0" y2="133" stroke="#1e293b" stroke-width="1.2" />
+  <text x="400.0" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="middle">3</text>
+  <line x1="450.0" y1="127" x2="450.0" y2="133" stroke="#1e293b" stroke-width="1.2" />
+  <text x="450.0" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="middle">4</text>
+  <line x1="500.0" y1="127" x2="500.0" y2="133" stroke="#1e293b" stroke-width="1.2" />
+  <text x="500.0" y="146" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="middle">5</text>
+  <line x1="247" y1="196.666" x2="253" stroke="#1e293b" stroke-width="1.2" />
+  <text x="242" y="200.666" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="end">-2</text>
+  <line x1="247" y1="163.333" x2="253" stroke="#1e293b" stroke-width="1.2" />
+  <text x="242" y="167.333" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="end">-1</text>
+  <line x1="247" y1="96.667" x2="253" stroke="#1e293b" stroke-width="1.2" />
+  <text x="242" y="100.667" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="end">1</text>
+  <line x1="247" y1="63.334" x2="253" stroke="#1e293b" stroke-width="1.2" />
+  <text x="242" y="67.334" font-family="'Cascadia Mono', monospace" font-size="11" fill="#334155" text-anchor="end">2</text>
+  <polyline points="100.0,196.7 200.0,63.3 300.0,63.3 400.0,196.7 500.0,130.0" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-linejoin="round" />
+  <circle cx="100.0" cy="196.7" r="4" fill="#0284c7" />
+  <circle cx="200.0" cy="63.3" r="4" fill="#0284c7" />
+  <circle cx="300.0" cy="63.3" r="4" fill="#0284c7" />
+  <circle cx="400.0" cy="196.7" r="4" fill="#0284c7" />
+  <circle cx="500.0" cy="130.0" r="4" fill="#0284c7" />
+  <circle cx="150.0" cy="130.0" r="3" fill="#d92672" />
+  <circle cx="350.0" cy="130.0" r="3" fill="#d92672" />
+  <text x="255.0" y="48.3" font-family="Aptos, sans-serif" font-size="12" font-weight="bold" fill="#0369a1" text-anchor="start">y = f(x)</text>
+</svg>

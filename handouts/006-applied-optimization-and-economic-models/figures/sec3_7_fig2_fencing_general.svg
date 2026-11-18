@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220" width="380" height="220" role="img" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<title>General Rectangular River Fencing Model</title>
+<desc>Rectangular field of depth x and width y along a river requiring no fencing on one side.</desc>
+<rect width="380" height="220" fill="#ffffff" />
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+  </marker>
+  <marker id="arrow-orange" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#ea580c" />
+  </marker>
+</defs>
+
+    <!-- Background field -->
+    <rect x="20" y="20" width="340" height="180" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+    
+    <!-- River -->
+    <path d="M 20 150 C 60 146, 110 154, 160 148 C 210 144, 260 154, 310 148 C 335 145, 350 150, 360 148 L 360 200 L 20 200 Z" fill="#bae6fd" />
+    <path d="M 20 150 C 60 146, 110 154, 160 148 C 210 144, 260 154, 310 148 C 335 145, 350 150, 360 148" fill="none" stroke="#0284c7" stroke-width="2" />
+    <text x="190" y="180" font-family="Aptos, sans-serif" font-size="12" fill="#0369a1" font-weight="bold" text-anchor="middle">Straight River (No fencing required)</text>
+
+    <!-- Fenced Area -->
+    <rect x="90" y="60" width="200" height="88" fill="#dcfce7" fill-opacity="0.7" stroke="none" />
+    <polyline points="90,148 90,60 290,60 290,148" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round" />
+    
+    <!-- Labels -->
+    <text x="190" y="50" font-family="Aptos, sans-serif" font-size="13" font-style="italic" font-weight="600" fill="#1e293b" text-anchor="middle">y (width)</text>
+    <text x="75" y="108" font-family="Aptos, sans-serif" font-size="13" font-style="italic" font-weight="600" fill="#1e293b" text-anchor="end">x</text>
+    <text x="305" y="108" font-family="Aptos, sans-serif" font-size="13" font-style="italic" font-weight="600" fill="#1e293b" text-anchor="start">x</text>
+    
+    <text x="190" y="105" font-family="Aptos, sans-serif" font-size="15" font-weight="bold" fill="#0f766e" text-anchor="middle">A = xy</text>
+    <text x="190" y="125" font-family="Aptos, sans-serif" font-size="11" fill="#475569" text-anchor="middle">Total fencing: 2x + y = 2400</text>
+    
+</svg>

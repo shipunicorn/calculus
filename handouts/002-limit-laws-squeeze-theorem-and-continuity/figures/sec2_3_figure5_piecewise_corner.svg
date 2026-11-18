@@ -1,0 +1,33 @@
+<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 230" width="380" height="230" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#d92672" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+  </marker>
+</defs>
+<title>Piecewise Function with Corner</title>
+<desc>Continuous piecewise curve joining at x = 4 with a sharp corner.</desc>
+<rect width="380" height="230" fill="#ffffff" />
+
+
+    <line x1="30" y1="165" x2="350" y2="165" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <line x1="80" y1="200" x2="80" y2="20" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <text x="355" y="179" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">x</text>
+    <text x="68" y="25" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-style="italic">y</text>
+    <text x="68" y="179" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">0</text>
+    <text x="196" y="181" font-family="Aptos, 'Segoe UI', sans-serif" font-size="11">4</text>
+    <line x1="200" y1="162" x2="200" y2="168" stroke="#1e293b" />
+    
+    <line x1="116.0" y1="51.0" x2="200" y2="165" stroke="#0284c7" stroke-width="2.2" />
+    <path d="M 200 165 Q 245.0 129.0, 320 117.0" fill="none" stroke="#0284c7" stroke-width="2.2" />
+    <circle cx="200" cy="165" r="3.2" fill="#0284c7" />
+    <text x="25" y="215" font-family="Aptos, 'Segoe UI', sans-serif" font-size="12" font-weight="bold">FIGURE 5</text>
+</svg>

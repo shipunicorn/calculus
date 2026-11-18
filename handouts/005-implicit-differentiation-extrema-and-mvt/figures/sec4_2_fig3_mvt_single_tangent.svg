@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260" width="340" height="260" role="img" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<title>Mean Value Theorem Single Tangent</title>
+<desc>Secant line AB parallel to tangent line at point P(c, f(c))</desc>
+<rect width="340" height="260" fill="#ffffff" />
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+  </marker>
+</defs>
+<line x1="20" y1="210" x2="310" y2="210" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+<line x1="50" y1="240" x2="50" y2="30" stroke="#1e293b" stroke-width="1.4" marker-end="url(#arrow)" />
+<text x="315" y="224" font-family="Aptos, sans-serif" font-size="12" font-style="italic">x</text>
+<text x="34" y="25" font-family="Aptos, sans-serif" font-size="12" font-style="italic">y</text>
+<text x="36" y="226" font-family="Aptos, sans-serif" font-size="11">0</text>
+<line x1="80" y1="150" x2="270" y2="190" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4" />
+<line x1="80.0" y1="84.2" x2="230.0" y2="115.8" stroke="#db2777" stroke-width="1.8" />
+<path d="M 80 150 Q 155 65 270 190" fill="none" stroke="#0284c7" stroke-width="2.2" />
+<circle cx="80" cy="150" r="4" fill="#1e293b" />
+<circle cx="270" cy="190" r="4" fill="#1e293b" />
+<circle cx="155" cy="100" r="4.5" fill="#db2777" />
+<line x1="155" y1="100" x2="155" y2="210" stroke="#db2777" stroke-width="1.0" stroke-dasharray="3,3" />
+<text x="151" y="226" font-family="Aptos, sans-serif" font-size="11" fill="#db2777">c</text>
+<rect x="15" y="128" width="60" height="18" fill="#ffffff" />
+<text x="75" y="141" font-family="Aptos, sans-serif" font-size="10.5" text-anchor="end" font-weight="bold">A(a, f(a))</text>
+<rect x="278" y="178" width="60" height="18" fill="#ffffff" />
+<text x="280" y="191" font-family="Aptos, sans-serif" font-size="10.5" font-weight="bold">B(b, f(b))</text>
+<rect x="110" y="76" width="90" height="18" fill="#ffffff" />
+<text x="155" y="89" font-family="Aptos, sans-serif" font-size="10.5" text-anchor="middle" font-weight="bold" fill="#db2777">P(c, f(c))</text>
+</svg>

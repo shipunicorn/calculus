@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" width="460" height="250" role="img" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<title>Tangent Hypotenuse to Parabola in First Quadrant</title>
+<desc>Right triangle in the first quadrant whose hypotenuse is tangent to y equals 4 minus x squared.</desc>
+<rect width="460" height="250" fill="#ffffff" />
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+  </marker>
+  <marker id="arrow-orange" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#ea580c" />
+  </marker>
+</defs>
+
+    <!-- Triangle in 1st quadrant formed by tangent line -->
+    <polygon points="60,195 279.4,195 60,45.7" fill="#fdf2f8" stroke="none" />
+
+    <!-- Axes -->
+    <line x1="40" y1="195" x2="390" y2="195" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+    <line x1="60" y1="215" x2="60" y2="25" stroke="#1e293b" stroke-width="1.5" marker-end="url(#arrow)" />
+
+    <!-- Ticks -->
+    <line x1="155" y1="192" x2="155" y2="198" stroke="#1e293b" stroke-width="1.2" />
+    <line x1="250" y1="192" x2="250" y2="198" stroke="#1e293b" stroke-width="1.2" />
+    <line x1="57" y1="83" x2="63" y2="83" stroke="#1e293b" stroke-width="1.2" />
+
+    <!-- Parabola y = 4 - x^2 -->
+    <polyline points="60.0,83.0 61.9,83.0 63.8,83.0 65.7,83.1 67.6,83.2 69.5,83.3 71.4,83.4 73.3,83.5 75.2,83.7 77.1,83.9 79.0,84.1 80.9,84.4 82.8,84.6 84.7,84.9 86.6,85.2 88.5,85.5 90.4,85.9 92.3,86.2 94.2,86.6 96.1,87.0 98.0,87.5 99.9,87.9 101.8,88.4 103.7,88.9 105.6,89.5 107.5,90.0 109.4,90.6 111.3,91.2 113.2,91.8 115.1,92.4 117.0,93.1 118.9,93.8 120.8,94.5 122.7,95.2 124.6,95.9 126.5,96.7 128.4,97.5 130.3,98.3 132.2,99.2 134.1,100.0 136.0,100.9 137.9,101.8 139.8,102.8 141.7,103.7 143.6,104.7 145.5,105.7 147.4,106.7 149.3,107.7 151.2,108.8 153.1,109.9 155.0,111.0 156.9,112.1 158.8,113.3 160.7,114.5 162.6,115.7 164.5,116.9 166.4,118.1 168.3,119.4 170.2,120.7 172.1,122.0 174.0,123.3 175.9,124.7 177.8,126.1 179.7,127.5 181.6,128.9 183.5,130.3 185.4,131.8 187.3,133.3 189.2,134.8 191.1,136.3 193.0,137.9 194.9,139.5 196.8,141.1 198.7,142.7 200.6,144.3 202.5,146.0 204.4,147.7 206.3,149.4 208.2,151.1 210.1,152.9 212.0,154.7 213.9,156.5 215.8,158.3 217.7,160.2 219.6,162.0 221.5,163.9 223.4,165.8 225.3,167.8 227.2,169.7 229.1,171.7 231.0,173.7 232.9,175.7 234.8,177.8 236.7,179.9 238.6,182.0 240.5,184.1 242.4,186.2 244.3,188.4 246.2,190.6 248.1,192.8 250.0,195.0 251.9,197.3 253.8,199.5 255.7,201.8 257.6,204.1" fill="none" stroke="#0284c7" stroke-width="2.2" />
+
+    <!-- Tangent Hypotenuse line -->
+    <line x1="60" y1="45.7" x2="279.4" y2="195" stroke="#db2777" stroke-width="2.2" />
+
+    <!-- Markers -->
+    <circle cx="169.7" cy="120.3" r="4" fill="#db2777" />
+    <circle cx="60" cy="45.7" r="3" fill="#db2777" />
+    <circle cx="279.4" cy="195" r="3" fill="#db2777" />
+
+    <!-- Axis text labels -->
+    <text x="395" y="209" font-family="Aptos, sans-serif" font-size="12" font-style="italic">x</text>
+    <text x="45" y="30" font-family="Aptos, sans-serif" font-size="12" font-style="italic">y</text>
+    <text x="48" y="210" font-family="Aptos, sans-serif" font-size="11">0</text>
+    <text x="152" y="211" font-family="Aptos, sans-serif" font-size="11">1</text>
+    <text x="247" y="211" font-family="Aptos, sans-serif" font-size="11">2</text>
+    <text x="45" y="87" font-family="Aptos, sans-serif" font-size="11">4</text>
+
+    <!-- Parabola label placed safely inside the region -->
+    <rect x="75" y="132" width="76" height="18" fill="#ffffff" rx="3" />
+    <text x="79" y="146" font-family="Aptos, sans-serif" font-size="12" font-weight="bold" fill="#0284c7">y = 4 − x²</text>
+
+    <text x="177.7" y="112.3" font-family="Aptos, sans-serif" font-size="11" font-weight="600" fill="#db2777">P(a, 4 − a²)</text>
+    <text x="68" y="49.7" font-family="Aptos, sans-serif" font-size="10.5" font-weight="600" fill="#9d174d">(0, a² + 4)</text>
+    <text x="279.4" y="223" font-family="Aptos, sans-serif" font-size="10.5" font-weight="600" fill="#9d174d" text-anchor="middle">((a² + 4)/(2a), 0)</text>
+
+    <!-- Annotation badge -->
+    <rect x="250" y="20" width="195" height="65" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+    <text x="260" y="38" font-family="Aptos, sans-serif" font-size="11" font-weight="bold" fill="#1e293b">Optimal Tangency:</text>
+    <text x="260" y="55" font-family="Aptos, sans-serif" font-size="11" fill="#475569">a = 2/√3 ≈ 1.155</text>
+    <text x="260" y="72" font-family="Aptos, sans-serif" font-size="11.5" font-weight="bold" fill="#be185d">Min Area = 32√3 / 9 ≈ 6.16</text>
+    
+</svg>

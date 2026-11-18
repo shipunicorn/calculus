@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" width="640" height="240" role="img" style="background-color: #ffffff; display: block; margin: 0 auto;">
+<title>Circle and Semicircles</title>
+<desc>Decomposition of implicit circle into explicit upper and lower semicircles</desc>
+<rect width="640" height="240" fill="#ffffff" />
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#1e293b" />
+  </marker>
+  <marker id="arrow-pink" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#db2777" />
+  </marker>
+  <marker id="arrow-sky" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0284c7" />
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#16a34a" />
+  </marker>
+</defs>
+<line x1="25" y1="110" x2="195" y2="110" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<line x1="110" y1="190" x2="110" y2="25" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<text x="198" y="123" font-family="Aptos, sans-serif" font-size="11" font-style="italic">x</text>
+<text x="96" y="25" font-family="Aptos, sans-serif" font-size="11" font-style="italic">y</text>
+<text x="98" y="124" font-family="Aptos, sans-serif" font-size="10">0</text>
+<text x="110" y="215" font-family="Aptos, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#1e293b">(a) x² + y² = 25</text>
+<circle cx="110" cy="110" r="60" fill="none" stroke="#db2777" stroke-width="2.2" />
+<line x1="235" y1="110" x2="405" y2="110" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<line x1="320" y1="190" x2="320" y2="25" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<text x="408" y="123" font-family="Aptos, sans-serif" font-size="11" font-style="italic">x</text>
+<text x="306" y="25" font-family="Aptos, sans-serif" font-size="11" font-style="italic">y</text>
+<text x="308" y="124" font-family="Aptos, sans-serif" font-size="10">0</text>
+<text x="320" y="215" font-family="Aptos, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#1e293b">(b) f(x) = √(25 - x²)</text>
+<path d="M 260 110 A 60 60 0 0 1 380 110" fill="none" stroke="#0284c7" stroke-width="2.2" />
+<line x1="445" y1="110" x2="615" y2="110" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<line x1="530" y1="190" x2="530" y2="25" stroke="#1e293b" stroke-width="1.2" marker-end="url(#arrow)" />
+<text x="618" y="123" font-family="Aptos, sans-serif" font-size="11" font-style="italic">x</text>
+<text x="516" y="25" font-family="Aptos, sans-serif" font-size="11" font-style="italic">y</text>
+<text x="518" y="124" font-family="Aptos, sans-serif" font-size="10">0</text>
+<text x="530" y="215" font-family="Aptos, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#1e293b">(c) g(x) = -√(25 - x²)</text>
+<path d="M 470 110 A 60 60 0 0 0 590 110" fill="none" stroke="#16a34a" stroke-width="2.2" />
+</svg>
