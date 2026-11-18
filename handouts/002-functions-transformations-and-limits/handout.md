@@ -147,86 +147,64 @@ Apply this four-stage routine to resolve continuous analysis problems systematic
 
 Determine the natural domain of $f(x) = \frac{\sqrt{9 - x^2}}{x - 2}$ and express the result in interval notation.
 
-```text
-Stage 1 (Classification & Domain):
-Even radical in numerator requires 9 - x^2 >= 0; denominator requires x - 2 != 0.
-
-Stage 2 (Algebraic Preparation):
-9 - x^2 >= 0  ==>  x^2 <= 9  ==>  -3 <= x <= 3  ==>  [-3, 3].
-Denominator singularity: x - 2 = 0  ==>  x = 2.
-
-Stage 3 (Core Operation):
-Intersect requirements: x in [-3, 3] with x != 2  ==>  [-3, 2) U (2, 3].
-
-Stage 4 (Interpretation & Boundary Check):
-At x = -3 and x = 3, radicand is 0 (valid closed brackets).
-At x = 2, division by zero occurs (open parentheses).
-Verified domain: [-3, 2) U (2, 3].
-```
+> **Stage 1 (Classification & Domain).** The even radical needs $9 - x^2 \ge 0$; the denominator needs $x - 2 \ne 0$.
+>
+> **Stage 2 (Algebraic Preparation).** $9 - x^2 \ge 0 \;\Longrightarrow\; x^2 \le 9 \;\Longrightarrow\; -3 \le x \le 3$, so the radical allows $[-3, 3]$. The denominator vanishes only at $x = 2$.
+>
+> **Stage 3 (Core Operation).** Intersect $x \in [-3, 3]$ with $x \ne 2$: $\;[-3, 2) \cup (2, 3]$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** At $x = \pm 3$ the radicand is $0$, which is allowed (closed brackets). At $x = 2$ the denominator is $0$ (open parenthesis).
+> Verified domain: $[-3, 2) \cup (2, 3]$.
 
 ### Example 2: Sequential graph transformations and domain/range identification
 
 Given prototype $y = \sqrt{x}$ with domain $[0, \infty)$ and range $[0, \infty)$, determine the explicit formula, domain, and range for $g(x)$ formed by shifting left by $4$ units, stretching vertically by factor $2$, reflecting across the $x$-axis, and shifting upward by $3$ units.
 
-```text
-Stage 1 (Classification & Domain):
-Base: y = sqrt(x). Apply left shift 4, vertical scale 2, x-axis reflection, up shift 3.
-
-Stage 2 (Algebraic Preparation):
-Shift left 4: sqrt(x + 4). Scale 2 and reflect: -2*sqrt(x + 4).
-Shift up 3: g(x) = 3 - 2*sqrt(x + 4).
-
-Stage 3 (Core Operation):
-Domain: x + 4 >= 0  ==>  x >= -4  ==>  [-4, inf).
-Range: sqrt(x + 4) >= 0  ==>  -2*sqrt(x + 4) <= 0  ==>  3 - 2*sqrt(...) <= 3.
-Range is (-inf, 3].
-
-Stage 4 (Interpretation & Boundary Check):
-At x = -4: g(-4) = 3 (absolute maximum at vertex (-4, 3)). As x -> inf, g(x) -> -inf.
-Verified formula: g(x) = 3 - 2*sqrt(x + 4); Domain: [-4, inf); Range: (-inf, 3].
-```
+> **Stage 1 (Classification & Domain).** Base $y = \sqrt{x}$. Apply: left $4$, vertical stretch $2$, reflect in the $x$-axis, up $3$.
+>
+> **Stage 2 (Algebraic Preparation).**
+>
+> $\sqrt{x} \;\to\; \sqrt{x + 4} \;\to\; -2\sqrt{x + 4} \;\to\; g(x) = 3 - 2\sqrt{x + 4}$
+>
+> **Stage 3 (Core Operation).** Domain: $x + 4 \ge 0 \Rightarrow [-4, \infty)$.
+>
+> Range: $\sqrt{x + 4} \ge 0 \;\Rightarrow\; -2\sqrt{x + 4} \le 0 \;\Rightarrow\; 3 - 2\sqrt{x + 4} \le 3$, so the range is $(-\infty, 3]$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** $g(-4) = 3$ is the absolute maximum (vertex $(-4, 3)$), and $g(x) \to -\infty$ as $x \to \infty$.
+> Verified: $g(x) = 3 - 2\sqrt{x + 4}$; domain $[-4, \infty)$; range $(-\infty, 3]$.
 
 ### Example 3: One-sided limits and discontinuity analysis on a piecewise curve
 
 Consider piecewise function $f(x) = \begin{cases} \frac{x^2 - 4}{x - 2} & \text{if } x < 2 \\ 1 & \text{if } x = 2 \\ 2x - 1 & \text{if } x > 2 \end{cases}$. Evaluate $\lim_{x \to 2^-} f(x)$, $\lim_{x \to 2^+} f(x)$, and determine whether $\lim_{x \to 2} f(x)$ exists. Classify any discontinuity at $x = 2$.
 
-```text
-Stage 1 (Classification & Domain):
-Piecewise function with boundary transition at x = 2. Test directional limits.
-
-Stage 2 (Algebraic Preparation):
-For x < 2: (x^2 - 4)/(x - 2) = (x - 2)(x + 2)/(x - 2) = x + 2 for x != 2.
-
-Stage 3 (Core Operation):
-Left-hand limit: lim_{x -> 2^-} (x + 2) = 2 + 2 = 4.
-Right-hand limit: lim_{x -> 2^+} (2x - 1) = 2(2) - 1 = 3.
-
-Stage 4 (Interpretation & Boundary Check):
-Because left limit (4) != right limit (3), the two-sided limit lim_{x -> 2} f(x) DNE.
-The function exhibits a jump discontinuity of magnitude |4 - 3| = 1 at x = 2.
-```
+> **Stage 1 (Classification & Domain).** Piecewise function with a boundary at $x = 2$. Test each directional limit separately.
+>
+> **Stage 2 (Algebraic Preparation).** For $x < 2$:
+>
+> $\displaystyle \frac{x^2 - 4}{x - 2} = \frac{(x - 2)(x + 2)}{x - 2} = x + 2 \quad (x \ne 2)$
+>
+> **Stage 3 (Core Operation).**
+>
+> $\displaystyle \lim_{x \to 2^-} f(x) = \lim_{x \to 2^-} (x + 2) = 4 \qquad \lim_{x \to 2^+} f(x) = \lim_{x \to 2^+} (2x - 1) = 3$
+>
+> **Stage 4 (Interpretation & Boundary Check).** Since $4 \ne 3$, $\displaystyle \lim_{x \to 2} f(x)$ does not exist (DNE). The function has a jump discontinuity of size $|4 - 3| = 1$ at $x = 2$; the value $f(2) = 1$ matches neither side.
 
 ### Example 4: Evaluating an indeterminate limit via conjugate rationalization
 
 Evaluate the limit $\lim_{x \to 0} \frac{\sqrt{x + 25} - 5}{x}$.
 
-```text
-Stage 1 (Classification & Domain):
-Direct substitution at x = 0 yields (sqrt(25) - 5)/0 = 0/0 (indeterminate form).
-
-Stage 2 (Algebraic Preparation):
-Multiply numerator and denominator by conjugate (sqrt(x + 25) + 5):
-[(sqrt(x + 25) - 5)(sqrt(x + 25) + 5)] / [x(sqrt(x + 25) + 5)]
-= [(x + 25) - 25] / [x(sqrt(x + 25) + 5)] = x / [x(sqrt(x + 25) + 5)].
-
-Stage 3 (Core Operation):
-Cancel non-zero factor x for x != 0: 1 / (sqrt(x + 25) + 5).
-Apply Quotient and Root Laws: 1 / (sqrt(0 + 25) + 5) = 1 / (5 + 5) = 1/10.
-
-Stage 4 (Interpretation & Boundary Check):
-Numerical check: At x = 0.01, (sqrt(25.01) - 5)/0.01 approx 0.09999 approx 0.10.
-The limit exists and equals 1/10.
-```
+> **Stage 1 (Classification & Domain).** Direct substitution gives $\dfrac{\sqrt{25} - 5}{0} = \dfrac{0}{0}$, an indeterminate form.
+>
+> **Stage 2 (Algebraic Preparation).** Multiply top and bottom by the conjugate $\sqrt{x + 25} + 5$:
+>
+> $\displaystyle \frac{(\sqrt{x + 25} - 5)(\sqrt{x + 25} + 5)}{x(\sqrt{x + 25} + 5)} = \frac{(x + 25) - 25}{x(\sqrt{x + 25} + 5)} = \frac{x}{x(\sqrt{x + 25} + 5)}$
+>
+> **Stage 3 (Core Operation).** Cancel $x$ (allowed since $x \ne 0$ near the limit), then use the quotient and root laws:
+>
+> $\displaystyle \frac{1}{\sqrt{x + 25} + 5} \;\longrightarrow\; \frac{1}{\sqrt{25} + 5} = \frac{1}{10}$
+>
+> **Stage 4 (Interpretation & Boundary Check).** Numerical check: at $x = 0.01$, $\dfrac{\sqrt{25.01} - 5}{0.01} \approx 0.09999 \approx 0.10$.
+> Verified limit: $\dfrac{1}{10}$.
 
 ## Exercises
 

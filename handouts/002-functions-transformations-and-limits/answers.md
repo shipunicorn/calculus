@@ -9,69 +9,54 @@ title: "Handout 002: Functions & Limits — Answer Key"
 ### Q1
 
 **1.**
-```text
-Stage 1 (Classification & Domain):
-Rational function f(x) = (3x - 1)/(x^2 - 4x - 12). Denominator cannot be zero.
 
-Stage 2 (Algebraic Preparation):
-Factor quadratic: x^2 - 4x - 12 = (x - 6)(x + 2) = 0  ==>  x = -2, 6.
-
-Stage 3 (Core Operation):
-Exclude singularities from real numbers: (-inf, -2) U (-2, 6) U (6, inf).
-
-Stage 4 (Interpretation & Boundary Check):
-Numerator at roots: f(-2) -> -7/0, f(6) -> 17/0. Both are vertical asymptotes.
-Verified domain: (-inf, -2) U (-2, 6) U (6, inf).
-```
+> **Stage 1 (Classification & Domain).** Rational function $f(x) = \dfrac{3x - 1}{x^2 - 4x - 12}$; the denominator cannot be zero.
+>
+> **Stage 2 (Algebraic Preparation).** $x^2 - 4x - 12 = (x - 6)(x + 2) = 0 \;\Rightarrow\; x = -2,\ 6$.
+>
+> **Stage 3 (Core Operation).** Remove the zeros of the denominator: $(-\infty, -2) \cup (-2, 6) \cup (6, \infty)$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** The numerator at the excluded points is $3(-2) - 1 = -7$ and $3(6) - 1 = 17$, both nonzero, so each exclusion is a vertical asymptote, not a hole.
+>
+> Verified domain: $(-\infty, -2) \cup (-2, 6) \cup (6, \infty)$.
 
 **2.**
-```text
-Stage 1 (Classification & Domain):
-Difference of radicals g(t) = sqrt(5 - t) - sqrt(t + 3). Radicands must be non-negative.
 
-Stage 2 (Algebraic Preparation):
-Solve individual inequalities: 5 - t >= 0 ==> t <= 5; t + 3 >= 0 ==> t >= -3.
-
-Stage 3 (Core Operation):
-Intersect requirements: -3 <= t <= 5, which in interval notation is [-3, 5].
-
-Stage 4 (Interpretation & Boundary Check):
-At t = -3: g(-3) = sqrt(8) - 0 = 2*sqrt(2). At t = 5: g(5) = -2*sqrt(2).
-Both endpoints are included (closed brackets). Verified domain: [-3, 5].
-```
+> **Stage 1 (Classification & Domain).** $g(t) = \sqrt{5 - t} - \sqrt{t + 3}$; both radicands must be non-negative.
+>
+> **Stage 2 (Algebraic Preparation).** $5 - t \ge 0 \Rightarrow t \le 5$ and $t + 3 \ge 0 \Rightarrow t \ge -3$.
+>
+> **Stage 3 (Core Operation).** Intersect: $-3 \le t \le 5$, so the domain is $[-3, 5]$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** $g(-3) = \sqrt{8} - 0 = 2\sqrt{2}$ and $g(5) = 0 - \sqrt{8} = -2\sqrt{2}$, so both endpoints belong (closed brackets).
+>
+> Verified domain: $[-3, 5]$.
 
 **3.**
-```text
-Stage 1 (Classification & Domain):
-Fourth-root in denominator h(x) = (2x + 7)/((x^2 - 4x)^(1/4)). Radicand must be strictly positive.
 
-Stage 2 (Algebraic Preparation):
-Factor: x(x - 4) > 0. Roots are x = 0 and x = 4. Testing signs shows positive on (-inf, 0) and (4, inf).
-
-Stage 3 (Core Operation):
-Collect positive intervals: (-inf, 0) U (4, inf).
-
-Stage 4 (Interpretation & Boundary Check):
-At x = 0 and x = 4, division by zero occurs (open parentheses).
-Verified domain: (-inf, 0) U (4, inf).
-```
+> **Stage 1 (Classification & Domain).** $h(x) = \dfrac{2x + 7}{\sqrt[4]{x^2 - 4x}}$; an even root in a denominator needs a strictly positive radicand.
+>
+> **Stage 2 (Algebraic Preparation).** $x^2 - 4x = x(x - 4) > 0$ with roots $x = 0$ and $x = 4$. A sign test gives positive on $(-\infty, 0)$ and on $(4, \infty)$, negative on $(0, 4)$.
+>
+> **Stage 3 (Core Operation).** Collect the positive intervals: $(-\infty, 0) \cup (4, \infty)$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** At $x = 0$ and $x = 4$ the denominator is $0$ (open parentheses).
+>
+> Verified domain: $(-\infty, 0) \cup (4, \infty)$.
 
 **4.**
-```text
-Stage 1 (Classification & Domain):
-Nested fraction k(u) = (u - 2)/(2 - 6/(u + 1)). All denominators must be non-zero simultaneously.
 
-Stage 2 (Algebraic Preparation):
-Inner denominator: u + 1 != 0 ==> u != -1.
-Main denominator: 2 - 6/(u + 1) = 0 ==> 2(u + 1) - 6 = 0 ==> 2u - 4 = 0 ==> u = 2.
-
-Stage 3 (Core Operation):
-Exclude singularities u = -1 and u = 2: (-inf, -1) U (-1, 2) U (2, inf).
-
-Stage 4 (Interpretation & Boundary Check):
-Simplifying (u - 2)/[(2u - 4)/(u + 1)] = (u + 1)/2 cancels (u - 2), but u = 2 remains a hole.
-Verified domain: (-inf, -1) U (-1, 2) U (2, inf).
-```
+> **Stage 1 (Classification & Domain).** Nested fraction $k(u) = \dfrac{u - 2}{2 - \dfrac{6}{u + 1}}$; every denominator at every level must be nonzero.
+>
+> **Stage 2 (Algebraic Preparation).** Inner denominator: $u + 1 \ne 0 \Rightarrow u \ne -1$. Main denominator:
+>
+> $\displaystyle 2 - \frac{6}{u + 1} = 0 \;\Rightarrow\; 2(u + 1) - 6 = 0 \;\Rightarrow\; 2u - 4 = 0 \;\Rightarrow\; u = 2$
+>
+> **Stage 3 (Core Operation).** Exclude $u = -1$ and $u = 2$: $(-\infty, -1) \cup (-1, 2) \cup (2, \infty)$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** Simplifying gives $\dfrac{u - 2}{\dfrac{2u - 4}{u + 1}} = \dfrac{u + 1}{2}$, which cancels $(u - 2)$, but the original expression is still undefined at $u = 2$ (a hole).
+>
+> Verified domain: $(-\infty, -1) \cup (-1, 2) \cup (2, \infty)$.
 
 ### Q2
 
@@ -86,234 +71,201 @@ Verified domain: (-inf, -1) U (-1, 2) U (2, inf).
 ### Q3
 
 **1.**
-```text
-Stage 1 (Classification & Domain):
-Base f(x) = sqrt(x). Apply right shift 3, vertical stretch 2, x-axis reflection, up shift 5.
 
-Stage 2 (Algebraic Preparation):
-Formula: h(x) = -2*sqrt(x - 3) + 5 = 5 - 2*sqrt(x - 3).
-
-Stage 3 (Core Operation):
-Domain: x - 3 >= 0 ==> x >= 3 ==> [3, inf).
-Range: sqrt(x - 3) >= 0 ==> -2*sqrt(x - 3) <= 0 ==> 5 - 2*sqrt(...) <= 5 ==> (-inf, 5].
-
-Stage 4 (Interpretation & Boundary Check):
-At x = 3: h(3) = 5 (vertex maximum). As x -> inf, h(x) -> -inf.
-Verified formula: h(x) = -2*sqrt(x - 3) + 5; Domain: [3, inf); Range: (-inf, 5].
-```
+> **Stage 1 (Classification & Domain).** $f(x) = \sqrt{x}$ with $\operatorname{dom} = [0, \infty)$. Apply: right $3$, vertical stretch $2$, reflect in the $x$-axis, up $5$.
+>
+> **Stage 2 (Algebraic Preparation).** $h(x) = -2\sqrt{x - 3} + 5 = 5 - 2\sqrt{x - 3}$.
+>
+> **Stage 3 (Core Operation).** Domain: $x - 3 \ge 0 \Rightarrow [3, \infty)$.
+>
+> Range: $\sqrt{x - 3} \ge 0 \;\Rightarrow\; -2\sqrt{x - 3} \le 0 \;\Rightarrow\; 5 - 2\sqrt{x - 3} \le 5$, so the range is $(-\infty, 5]$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** $h(3) = 5$ is the vertex and absolute maximum; $h(x) \to -\infty$ as $x \to \infty$.
+>
+> Verified: $h(x) = 5 - 2\sqrt{x - 3}$; domain $[3, \infty)$; range $(-\infty, 5]$.
 
 **2.**
-```text
-Stage 1 (Classification & Domain):
-Given f(x) = sqrt(x) and g(x) = 9 - x^2. Enforce x in dom(g) and g(x) in dom(f).
 
-Stage 2 (Algebraic Preparation):
-Composite formula: (f o g)(x) = sqrt(9 - x^2). Condition: 9 - x^2 >= 0.
-
-Stage 3 (Core Operation):
-Solve 9 - x^2 >= 0 ==> x^2 <= 9 ==> -3 <= x <= 3 ==> [-3, 3].
-
-Stage 4 (Interpretation & Boundary Check):
-Endpoints: (f o g)(+-3) = sqrt(0) = 0. Peak at x = 0: sqrt(9) = 3.
-Verified formula: (f o g)(x) = sqrt(9 - x^2); Domain: [-3, 3].
-```
+> **Stage 1 (Classification & Domain).** $f(x) = \sqrt{x}$ and $g(x) = 9 - x^2$. For $(f \circ g)(x)$ require $x \in \operatorname{dom}(g)$ and $g(x) \in \operatorname{dom}(f)$.
+>
+> **Stage 2 (Algebraic Preparation).** $(f \circ g)(x) = \sqrt{9 - x^2}$, which requires $9 - x^2 \ge 0$.
+>
+> **Stage 3 (Core Operation).** $9 - x^2 \ge 0 \;\Rightarrow\; x^2 \le 9 \;\Rightarrow\; -3 \le x \le 3$, so the domain is $[-3, 3]$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** At the endpoints $(f \circ g)(\pm 3) = \sqrt{0} = 0$; at $x = 0$ the peak is $\sqrt{9} = 3$.
+>
+> Verified: $(f \circ g)(x) = \sqrt{9 - x^2}$; domain $[-3, 3]$.
 
 **3.**
-```text
-Stage 1 (Classification & Domain):
-Given f(x) = sqrt(x) with dom [0, inf) and g(x) = 9 - x^2. Inner function is f(x).
 
-Stage 2 (Algebraic Preparation):
-Formula: (g o f)(x) = 9 - (sqrt(x))^2. Enforce x in dom(f) ==> x >= 0. For x >= 0, formula is 9 - x.
-
-Stage 3 (Core Operation):
-Domain is restricted by inner root: [0, inf). Range: 9 - x decreases from 9 to -inf: (-inf, 9].
-
-Stage 4 (Interpretation & Boundary Check):
-Omitting the inner restriction x >= 0 would falsely yield domain (-inf, inf).
-Verified formula: (g o f)(x) = 9 - x for x >= 0; Domain: [0, inf); Range: (-inf, 9].
-```
+> **Stage 1 (Classification & Domain).** $f(x) = \sqrt{x}$ with $\operatorname{dom} = [0, \infty)$ is the inner function in $(g \circ f)(x)$, with $g(x) = 9 - x^2$.
+>
+> **Stage 2 (Algebraic Preparation).** $(g \circ f)(x) = 9 - \left(\sqrt{x}\right)^2$. The inner function forces $x \ge 0$, and for $x \ge 0$ this equals $9 - x$.
+>
+> **Stage 3 (Core Operation).** The domain is set by the inner root: $[0, \infty)$. On it $9 - x$ decreases from $9$ without bound, so the range is $(-\infty, 9]$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** Dropping the inner restriction would wrongly give the domain $(-\infty, \infty)$ from the simplified formula $9 - x$.
+>
+> Verified: $(g \circ f)(x) = 9 - x$ for $x \ge 0$; domain $[0, \infty)$; range $(-\infty, 9]$.
 
 ### Q4
 
 **1.**
-```text
-Stage 1 (Classification & Domain):
-Limit: lim_{x -> 3} (2x^2 - 5x - 3)/(x^2 - 9). Direct evaluation gives 0/0 (indeterminate).
 
-Stage 2 (Algebraic Preparation):
-Factor: 2x^2 - 5x - 3 = (2x + 1)(x - 3); x^2 - 9 = (x + 3)(x - 3).
-
-Stage 3 (Core Operation):
-Cancel (x - 3) for x != 3: (2x + 1)/(x + 3).
-Evaluate: lim_{x -> 3} (2x + 1)/(x + 3) = (2(3) + 1)/(3 + 3) = 7/6.
-
-Stage 4 (Interpretation & Boundary Check):
-Numerical check: At x = 3.01, ratio approx 1.168; 7/6 = 1.1667. Verified limit: 7/6.
-```
+> **Stage 1 (Classification & Domain).** $\displaystyle \lim_{x \to 3} \frac{2x^2 - 5x - 3}{x^2 - 9}$; direct substitution gives $\dfrac{0}{0}$.
+>
+> **Stage 2 (Algebraic Preparation).** $2x^2 - 5x - 3 = (2x + 1)(x - 3)$ and $x^2 - 9 = (x + 3)(x - 3)$.
+>
+> **Stage 3 (Core Operation).** Cancel $(x - 3)$ for $x \ne 3$:
+>
+> $\displaystyle \lim_{x \to 3} \frac{2x + 1}{x + 3} = \frac{2(3) + 1}{3 + 3} = \frac{7}{6}$
+>
+> **Stage 4 (Interpretation & Boundary Check).** Numerical check: at $x = 3.01$ the ratio is $\approx 1.168$ and $\frac{7}{6} \approx 1.1667$.
+>
+> Verified limit: $\dfrac{7}{6}$.
 
 **2.**
-```text
-Stage 1 (Classification & Domain):
-Limit: lim_{t -> 0} (sqrt(t + 16) - 4)/t. Direct evaluation gives (4 - 4)/0 = 0/0.
 
-Stage 2 (Algebraic Preparation):
-Multiply by conjugate: [(sqrt(t+16)-4)(sqrt(t+16)+4)] / [t(sqrt(t+16)+4)] = t / [t(sqrt(t+16)+4)].
-
-Stage 3 (Core Operation):
-Cancel t for t != 0: 1 / (sqrt(t + 16) + 4).
-Evaluate: 1 / (sqrt(0 + 16) + 4) = 1 / (4 + 4) = 1/8.
-
-Stage 4 (Interpretation & Boundary Check):
-Numerical check: At t = 0.01, value approx 0.12496; 1/8 = 0.125. Verified limit: 1/8.
-```
+> **Stage 1 (Classification & Domain).** $\displaystyle \lim_{t \to 0} \frac{\sqrt{t + 16} - 4}{t}$; direct substitution gives $\dfrac{4 - 4}{0} = \dfrac{0}{0}$.
+>
+> **Stage 2 (Algebraic Preparation).** Multiply by the conjugate $\sqrt{t + 16} + 4$:
+>
+> $\displaystyle \frac{(\sqrt{t + 16} - 4)(\sqrt{t + 16} + 4)}{t(\sqrt{t + 16} + 4)} = \frac{t}{t(\sqrt{t + 16} + 4)}$
+>
+> **Stage 3 (Core Operation).** Cancel $t$ for $t \ne 0$:
+>
+> $\displaystyle \lim_{t \to 0} \frac{1}{\sqrt{t + 16} + 4} = \frac{1}{4 + 4} = \frac{1}{8}$
+>
+> **Stage 4 (Interpretation & Boundary Check).** Numerical check: at $t = 0.01$ the value is $\approx 0.12496$ and $\frac{1}{8} = 0.125$.
+>
+> Verified limit: $\dfrac{1}{8}$.
 
 **3.**
-```text
-Stage 1 (Classification & Domain):
-Limit: lim_{x -> -2} [(1/(x + 4) - 1/2)/(x + 2)]. Direct evaluation gives 0/0.
 
-Stage 2 (Algebraic Preparation):
-Combine numerator: [2 - (x + 4)] / [2(x + 4)] = -(x + 2) / [2(x + 4)].
-Divide by (x + 2): -(x + 2) / [2(x + 4)(x + 2)].
-
-Stage 3 (Core Operation):
-Cancel (x + 2) for x != -2: -1 / [2(x + 4)].
-Evaluate: -1 / [2(-2 + 4)] = -1 / 4.
-
-Stage 4 (Interpretation & Boundary Check):
-Numerical check: At x = -1.99, value approx -0.2488; -1/4 = -0.25. Verified limit: -1/4.
-```
+> **Stage 1 (Classification & Domain).** $\displaystyle \lim_{x \to -2} \frac{\dfrac{1}{x + 4} - \dfrac{1}{2}}{x + 2}$; direct substitution gives $\dfrac{0}{0}$.
+>
+> **Stage 2 (Algebraic Preparation).** Combine the numerator over a common denominator, then divide by $(x + 2)$:
+>
+> $\displaystyle \frac{1}{x + 4} - \frac{1}{2} = \frac{2 - (x + 4)}{2(x + 4)} = \frac{-(x + 2)}{2(x + 4)} \quad\Longrightarrow\quad \frac{-(x + 2)}{2(x + 4)(x + 2)}$
+>
+> **Stage 3 (Core Operation).** Cancel $(x + 2)$ for $x \ne -2$:
+>
+> $\displaystyle \lim_{x \to -2} \frac{-1}{2(x + 4)} = \frac{-1}{2(2)} = -\frac{1}{4}$
+>
+> **Stage 4 (Interpretation & Boundary Check).** Numerical check: at $x = -1.99$ the value is $\approx -0.2488$ and $-\frac{1}{4} = -0.25$.
+>
+> Verified limit: $-\dfrac{1}{4}$.
 
 **4.**
-```text
-Stage 1 (Classification & Domain):
-Trigonometric limit: lim_{theta -> 0} sin(5*theta)/(3*theta). Form is 0/0.
 
-Stage 2 (Algebraic Preparation):
-Use identity lim_{u -> 0} sin(u)/u = 1. Rewrite: (5/3) * [sin(5*theta)/(5*theta)].
-
-Stage 3 (Core Operation):
-With u = 5*theta, limit becomes (5/3) * 1 = 5/3.
-
-Stage 4 (Interpretation & Boundary Check):
-Numerical check: At theta = 0.001 rad, sin(0.005)/0.003 approx 1.66667. Verified limit: 5/3.
-```
+> **Stage 1 (Classification & Domain).** $\displaystyle \lim_{\theta \to 0} \frac{\sin(5\theta)}{3\theta}$ has the form $\dfrac{0}{0}$.
+>
+> **Stage 2 (Algebraic Preparation).** Use $\displaystyle \lim_{u \to 0} \frac{\sin u}{u} = 1$. Rewrite as
+>
+> $\displaystyle \frac{5}{3} \cdot \frac{\sin(5\theta)}{5\theta}$
+>
+> **Stage 3 (Core Operation).** With $u = 5\theta \to 0$ the limit is $\dfrac{5}{3} \cdot 1 = \dfrac{5}{3}$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** Numerical check: at $\theta = 0.001$ rad, $\dfrac{\sin(0.005)}{0.003} \approx 1.66667$.
+>
+> Verified limit: $\dfrac{5}{3}$.
 
 ### Q5
 
 **1.**
-```text
-Stage 1 (Classification & Domain):
-Piecewise model T(t) on [0, 6]. Left: 2 + 1.5t (t < 2); Right: 8 - 6/(t + 1) (t > 2).
 
-Stage 2 (Algebraic Preparation):
-Sub-functions are continuous on respective open intervals; evaluate directly.
-
-Stage 3 (Core Operation):
-Left-hand limit: lim_{t -> 2^-} (2 + 1.5t) = 2 + 1.5(2) = 5 (500 deg C).
-Right-hand limit: lim_{t -> 2^+} (8 - 6/(t + 1)) = 8 - 6/3 = 6 (600 deg C).
-
-Stage 4 (Interpretation & Boundary Check):
-Left limit: 500 deg C (pre-heating). Right limit: 600 deg C (firing stage).
-Verified limits: lim_{t -> 2^-} T(t) = 5 and lim_{t -> 2^+} T(t) = 6.
-```
+> **Stage 1 (Classification & Domain).** Piecewise model $T(t)$ on $[0, 6]$: left piece $2 + 1.5t$ for $t < 2$, right piece $8 - \dfrac{6}{t + 1}$ for $t > 2$.
+>
+> **Stage 2 (Algebraic Preparation).** Each piece is continuous on its open interval, so each one-sided limit is found by direct substitution.
+>
+> **Stage 3 (Core Operation).**
+>
+> $\displaystyle \lim_{t \to 2^-} (2 + 1.5t) = 2 + 1.5(2) = 5 \qquad \lim_{t \to 2^+} \left(8 - \frac{6}{t + 1}\right) = 8 - \frac{6}{3} = 6$
+>
+> **Stage 4 (Interpretation & Boundary Check).** Left limit $5$ ($500\,^\circ\text{C}$, pre-heating); right limit $6$ ($600\,^\circ\text{C}$, firing stage).
+>
+> Verified: $\displaystyle \lim_{t \to 2^-} T(t) = 5$ and $\displaystyle \lim_{t \to 2^+} T(t) = 6$.
 
 **2.**
-```text
-Stage 1 (Classification & Domain):
-Directional limits: lim_{t -> 2^-} T(t) = 5 != lim_{t -> 2^+} T(t) = 6.
 
-Stage 2 (Algebraic Preparation):
-Two-sided limit exists if and only if one-sided limits are equal.
-
-Stage 3 (Core Operation):
-Since 5 != 6, lim_{t -> 2} T(t) Does Not Exist (DNE).
-Classification: Essential jump discontinuity of magnitude |6 - 5| = 1 at t = 2.
-
-Stage 4 (Interpretation & Boundary Check):
-Control point T(2) = 5 cannot bridge the abrupt firing jump transition.
-Verified conclusion: Limit DNE; jump discontinuity of magnitude 1.
-```
+> **Stage 1 (Classification & Domain).** The one-sided limits are $\displaystyle \lim_{t \to 2^-} T(t) = 5$ and $\displaystyle \lim_{t \to 2^+} T(t) = 6$.
+>
+> **Stage 2 (Algebraic Preparation).** The two-sided limit exists if and only if the one-sided limits are equal.
+>
+> **Stage 3 (Core Operation).** Since $5 \ne 6$, $\displaystyle \lim_{t \to 2} T(t)$ does not exist (DNE). The discontinuity is a jump of size $|6 - 5| = 1$ at $t = 2$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** The control value $T(2) = 5$ cannot bridge the jump.
+>
+> Verified conclusion: the limit DNE; jump discontinuity of size $1$.
 
 **3.**
-```text
-Stage 1 (Classification & Domain):
-Monotonicity on [0, 6]: Segment 1 [0, 2) has dT/dt > 0; Segment 2 (2, 6] has dT/dt > 0.
 
-Stage 2 (Algebraic Preparation):
-Segment 1 spans [2, 5); T(2) = 5 closes [2, 5]. Segment 2 spans (6, 50/7].
-
-Stage 3 (Core Operation):
-Range: [2, 5] U (6, 50/7]. Min: 2 at t = 0; Max: 50/7 at t = 6.
-
-Stage 4 (Interpretation & Boundary Check):
-Interval (5, 6] is omitted due to jump discontinuity. Verified range: [2, 5] U (6, 50/7].
-```
+> **Stage 1 (Classification & Domain).** On $[0, 6]$ both pieces are increasing: segment 1 on $[0, 2)$ has $\dfrac{dT}{dt} > 0$, and segment 2 on $(2, 6]$ has $\dfrac{dT}{dt} > 0$.
+>
+> **Stage 2 (Algebraic Preparation).** Segment 1 covers $[2, 5)$, and $T(2) = 5$ closes it to $[2, 5]$. Segment 2 covers $\left(6, \dfrac{50}{7}\right]$.
+>
+> **Stage 3 (Core Operation).** Range: $[2, 5] \cup \left(6, \dfrac{50}{7}\right]$. The minimum is $2$ at $t = 0$; the maximum is $\dfrac{50}{7}$ at $t = 6$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** The interval $(5, 6]$ is skipped because of the jump discontinuity.
+>
+> Verified range: $[2, 5] \cup \left(6, \dfrac{50}{7}\right]$.
 
 ### Q6
 
 **1.**
-```text
-Stage 1 (Classification & Domain):
-Right velocity v(t) = (sqrt(t - 1) - 3)/(t - 10) + 15 for t > 10. Form is 0/0 at 10.
 
-Stage 2 (Algebraic Preparation):
-Multiply by conjugate: [(sqrt(t-1)-3)(sqrt(t-1)+3)] / [(t-10)(sqrt(t-1)+3)] = (t-10)/[(t-10)(sqrt(t-1)+3)].
-
-Stage 3 (Core Operation):
-Cancel (t - 10): 1 / (sqrt(t - 1) + 3). Limit as t -> 10^+ is 1/6 + 15 = 91/6 m/s.
-
-Stage 4 (Interpretation & Boundary Check):
-Numerical check: At t = 10.01, v(t) approx 15.1666 m/s. Verified limit: 91/6 m/s.
-```
+> **Stage 1 (Classification & Domain).** For $t > 10$: $v(t) = \dfrac{\sqrt{t - 1} - 3}{t - 10} + 15$, whose fraction part is $\dfrac{0}{0}$ at $t = 10$.
+>
+> **Stage 2 (Algebraic Preparation).** Multiply by the conjugate $\sqrt{t - 1} + 3$:
+>
+> $\displaystyle \frac{(\sqrt{t - 1} - 3)(\sqrt{t - 1} + 3)}{(t - 10)(\sqrt{t - 1} + 3)} = \frac{t - 10}{(t - 10)(\sqrt{t - 1} + 3)}$
+>
+> **Stage 3 (Core Operation).** Cancel $(t - 10)$:
+>
+> $\displaystyle \lim_{t \to 10^+} v(t) = \frac{1}{\sqrt{9} + 3} + 15 = \frac{1}{6} + 15 = \frac{91}{6}\ \text{m/s}$
+>
+> **Stage 4 (Interpretation & Boundary Check).** Numerical check: at $t = 10.01$, $v \approx 15.1666\ \text{m/s}$.
+>
+> Verified limit: $\dfrac{91}{6}\ \text{m/s}$.
 
 **2.**
-```text
-Stage 1 (Classification & Domain):
-Left velocity v(t) = (a*t^2 + 12t)/(t + 4) for t < 10. Continuous at 10 (denominator 14 != 0).
 
-Stage 2 (Algebraic Preparation):
-Direct substitution: lim_{t -> 10^-} v(t) = (100a + 120)/14 = (50a + 60)/7.
-Equate to right limit: (50a + 60)/7 = 91/6.
-
-Stage 3 (Core Operation):
-Cross-multiply: 6(50a + 60) = 7(91) ==> 300a + 360 = 637 ==> a = 277/300.
-
-Stage 4 (Interpretation & Boundary Check):
-Check: [50(277/300) + 60]/7 = (637/6)/7 = 91/6 m/s. Verified parameter: a = 277/300.
-```
+> **Stage 1 (Classification & Domain).** For $t < 10$: $v(t) = \dfrac{at^2 + 12t}{t + 4}$, continuous at $t = 10$ because the denominator is $14 \ne 0$.
+>
+> **Stage 2 (Algebraic Preparation).** Substitute directly, then match the right-hand limit:
+>
+> $\displaystyle \lim_{t \to 10^-} v(t) = \frac{100a + 120}{14} = \frac{50a + 60}{7} = \frac{91}{6}$
+>
+> **Stage 3 (Core Operation).** Cross-multiply: $6(50a + 60) = 7(91) \;\Rightarrow\; 300a + 360 = 637 \;\Rightarrow\; a = \dfrac{277}{300}$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** Check: $\dfrac{50 \cdot \frac{277}{300} + 60}{7} = \dfrac{637/6}{7} = \dfrac{91}{6}\ \text{m/s}$.
+>
+> Verified parameter: $a = \dfrac{277}{300}$.
 
 **3.**
-```text
-Stage 1 (Classification & Domain):
-Continuity at t = 10 requires v(10) = lim_{t -> 10} v(t).
 
-Stage 2 (Algebraic Preparation):
-From definition, v(10) = b. Two-sided limit is lim_{t -> 10} v(t) = 91/6 m/s.
-
-Stage 3 (Core Operation):
-Equate values: b = 91/6 m/s.
-
-Stage 4 (Interpretation & Boundary Check):
-Setting b = 91/6 eliminates any velocity discontinuity at t = 10.
-Verified parameter: b = 91/6.
-```
+> **Stage 1 (Classification & Domain).** Continuity at $t = 10$ requires $v(10) = \displaystyle \lim_{t \to 10} v(t)$.
+>
+> **Stage 2 (Algebraic Preparation).** By definition $v(10) = b$, and the two-sided limit is $\displaystyle \lim_{t \to 10} v(t) = \dfrac{91}{6}\ \text{m/s}$.
+>
+> **Stage 3 (Core Operation).** Equate the values: $b = \dfrac{91}{6}\ \text{m/s}$.
+>
+> **Stage 4 (Interpretation & Boundary Check).** With $b = \frac{91}{6}$ there is no velocity discontinuity at $t = 10$.
+>
+> Verified parameter: $b = \dfrac{91}{6}$.
 
 **4.**
-```text
-Stage 1 (Classification & Domain):
-Average acceleration a_bar = (v(26) - v(17)) / (26 - 17). Both points lie in (10, 30].
 
-Stage 2 (Algebraic Preparation):
-v(17) = (sqrt(16) - 3)/7 + 15 = 1/7 + 15 = 106/7 m/s.
-v(26) = (sqrt(25) - 3)/16 + 15 = 2/16 + 15 = 1/8 + 15 = 121/8 m/s.
-
-Stage 3 (Core Operation):
-Delta v = 121/8 - 106/7 = (847 - 848)/56 = -1/56 m/s.
-Divide by Delta t = 9 s: a_bar = (-1/56) / 9 = -1/504 m/s^2.
-
-Stage 4 (Interpretation & Boundary Check):
-Numerical check: (15.125 - 15.142857)/9 = -0.0019841 m/s^2; -1/504 = -0.0019841.
-Negative sign indicates slight deceleration. Verified acceleration: -1/504 m/s^2.
-```
+> **Stage 1 (Classification & Domain).** $\bar{a} = \dfrac{v(26) - v(17)}{26 - 17}$; both times lie in $(10, 30]$, so the right-hand formula applies.
+>
+> **Stage 2 (Algebraic Preparation).**
+>
+> $\displaystyle v(17) = \frac{\sqrt{16} - 3}{7} + 15 = \frac{1}{7} + 15 = \frac{106}{7} \qquad v(26) = \frac{\sqrt{25} - 3}{16} + 15 = \frac{1}{8} + 15 = \frac{121}{8}$
+>
+> **Stage 3 (Core Operation).**
+>
+> $\displaystyle \Delta v = \frac{121}{8} - \frac{106}{7} = \frac{847 - 848}{56} = -\frac{1}{56} \qquad \bar{a} = \frac{-1/56}{9} = -\frac{1}{504}\ \text{m/s}^2$
+>
+> **Stage 4 (Interpretation & Boundary Check).** Numerical check: $\dfrac{15.125 - 15.142857}{9} \approx -0.0019841$ and $-\frac{1}{504} \approx -0.0019841$. The negative sign means slight deceleration.
+>
+> Verified acceleration: $-\dfrac{1}{504}\ \text{m/s}^2$.
